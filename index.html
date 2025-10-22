@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20251022c">
 </head>
-<body>
+<body data-page="home">
     <header class="site-header">
         <div class="nav-container">
-            <a class="brand" href="#top">
+            <a class="brand" href="index.html">
                 <img src="assets/images/logo.png" alt="Tethys Investment Alliance Logo">
                 <span>Tethys Investment Alliance</span>
             </a>
@@ -25,23 +25,27 @@
             </button>
             <nav class="primary-nav">
                 <ul class="nav-links">
-                    <li><a href="#solutions" data-i18n="nav.solutions">Lösungen</a></li>
-                    <li><a href="#platform" data-i18n="nav.platform">Intelligente Plattform</a></li>
-                    <li><a href="#resources" data-i18n="nav.team">Research-Team</a></li>
-                    <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+                    <li><a href="index.html" data-page="home" data-i18n="nav.home">Startseite</a></li>
+                    <li><a href="platform.html" data-page="platform" data-i18n="nav.platform">Intelligente Plattform</a></li>
+                    <li><a href="team.html" data-page="team" data-i18n="nav.team">Research-Team</a></li>
+                    <li><a href="alumni.html" data-page="alumni" data-i18n="nav.alumni">Alumni</a></li>
+                    <li><a href="education.html" data-page="education" data-i18n="nav.education">Unterricht &amp; Reports</a></li>
+                    <li><a href="elections.html" data-page="elections" data-i18n="nav.elections">Abstimmungen</a></li>
+                    <li><a href="lottery.html" data-page="lottery" data-i18n="nav.lottery">Verlosung</a></li>
+                    <li><a href="about.html" data-page="about" data-i18n="nav.about">Über &amp; Kontakt</a></li>
                 </ul>
                 <div class="language-switcher" role="group" aria-label="Sprache wählen" data-i18n-aria-label="language.switcherLabel">
                     <button type="button" class="language-option active" data-lang="de">DE</button>
                     <button type="button" class="language-option" data-lang="en">EN</button>
                     <button type="button" class="language-option" data-lang="zh">中文</button>
                 </div>
-                <a class="nav-cta" href="#trial" data-i18n="nav.cta">Kostenlose Demo</a>
             </nav>
         </div>
     </header>
 
     <main id="top">
-        <section class="hero" id="trial">
+        <section class="hero hero-home">
+            <div class="hero-inner">
             <div class="hero-content">
                 <span class="eyebrow" data-i18n="hero.eyebrow">AI-gestützte Quant Intelligence</span>
                 <h1 data-i18n="hero.headline">Globale Märkte in Echtzeit erkennen und präzise Quant-Entscheidungen treffen</h1>
@@ -49,8 +53,8 @@
                     Wir kombinieren Deep Learning, natürliche Sprachverarbeitung und jahrzehntelange Buy-Side-Expertise, um eine durchgängige Plattform zu liefern, die Discovery, Validierung und Ausführung automatisiert.
                 </p>
                 <div class="hero-actions">
-                    <a class="btn primary" href="#contact" data-i18n="hero.primary">Beratungstermin vereinbaren</a>
-                    <a class="btn ghost" href="#platform" data-i18n="hero.secondary">Plattformfunktionen ansehen</a>
+                    <a class="btn primary" href="about.html#contact" data-i18n="hero.primary">Beratungstermin vereinbaren</a>
+                    <a class="btn ghost" href="platform.html" data-i18n="hero.secondary">Plattformfunktionen ansehen</a>
                 </div>
                 <ul class="hero-highlights">
                     <li data-i18n="hero.highlight1"><strong>24/7</strong> KI-gestützte Marktüberwachung</li>
@@ -66,6 +70,7 @@
                     <span class="badge-title" data-i18n="hero.badgeTitle">Quant Research as a Service</span>
                     <p data-i18n="hero.badgeText">Multi-Asset-Strategiebibliothek · Automatisiertes Backtesting · Mehrsprachige Kollaboration</p>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -96,107 +101,53 @@
             </div>
         </section>
 
-        <section class="features" id="platform">
+        <section class="services" id="services">
             <div class="section-intro">
-                <span class="eyebrow" data-i18n="features.eyebrow">Plattform im Detail</span>
-                <h2 data-i18n="features.heading">Modularer Aufbau, exakt auf Ihre Research-Pipelines abgestimmt</h2>
-            </div>
-            <div class="feature-grid">
-                <article class="feature-card">
-                    <div class="feature-media" style="background-image: url('assets/images/feature-automation.jpg');"></div>
-                    <div class="feature-body">
-                        <h3 data-i18n="features.card1.title">AI-Signalfabrik</h3>
-                        <p data-i18n="features.card1.desc">Aggregiert Datenquellen, extrahiert Features in Echtzeit und generiert erklärbare Handelssignale.</p>
-                        <ul>
-                            <li data-i18n="features.card1.point1">Früherkennung von Anomalien und Risikosignalen</li>
-                            <li data-i18n="features.card1.point2">Lifecycle-Governance für jede Strategie</li>
-                            <li data-i18n="features.card1.point3">Visualisierte Modell-Performance in Echtzeit</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="feature-card">
-                    <div class="feature-media gradient"></div>
-                    <div class="feature-body">
-                        <h3 data-i18n="features.card2.title">Quant Execution Hub</h3>
-                        <p data-i18n="features.card2.desc">Direkte Anbindung an Broker und Exchanges für Algo-, Basket- und Auto-Rebalancing-Orders.</p>
-                        <ul>
-                            <li data-i18n="features.card2.point1">Rollenbasierte Zugriffe über mehrere Konten</li>
-                            <li data-i18n="features.card2.point2">Intelligentes Order-Routing mit Slippage-Kontrolle</li>
-                            <li data-i18n="features.card2.point3">Live-Nettovermögen und Allokationsansichten</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="feature-card">
-                    <div class="feature-media soft" style="background-image: url('assets/images/insights.jpg');"></div>
-                    <div class="feature-body">
-                        <h3 data-i18n="features.card3.title">Insight Visual Center</h3>
-                        <p data-i18n="features.card3.desc">Dashboards verwandeln KI-Erkenntnisse in abgestimmte Entscheidungen über Teams hinweg.</p>
-                        <ul>
-                            <li data-i18n="features.card3.point1">Szenario-KPIs und individuelle Reports</li>
-                            <li data-i18n="features.card3.point2">Marktbriefings aus natürlicher Sprache</li>
-                            <li data-i18n="features.card3.point3">Nahtlose Integration via API und Webhooks</li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="split-section" id="analytics">
-            <div class="split-media">
-                <img src="assets/images/feature-automation.jpg" alt="KI-gestützte Oberfläche für Strategie-Backtesting" data-i18n-alt="ros.mediaAlt">
-            </div>
-            <div class="split-content">
-                <span class="eyebrow" data-i18n="ros.eyebrow">Research Operating System</span>
-                <h2 data-i18n="ros.heading">Jede Minute des Research-Teams ist messbar, nachvollziehbar und skalierbar</h2>
-                <p data-i18n="ros.paragraph">
-                    Ein konfigurierbares Operating System zerlegt den Research-Prozess in wiederverwendbare Bausteine und baut ein strategisches Wissensgraph-Backbone auf.
+                <span class="eyebrow" data-i18n="services.eyebrow">Serviceprogramme</span>
+                <h2 data-i18n="services.heading">Strukturiertes Engagement vom Campus bis zum Kapital</h2>
+                <p data-i18n="services.paragraph">
+                    Wir erweitern das VenusIN-Erbe innerhalb der TIA-Experience um kuratierte Servicepfade, die Teams vom Lernen bis zur Live-Implementierung führen.
                 </p>
-                <ul class="bullet-list">
-                    <li data-i18n="ros.list1">Genehmigungs- und Audit-Trails für funktionsübergreifende Teams</li>
-                    <li data-i18n="ros.list2">End-to-End KPI-Tracking vom Insight bis zur Ausführung</li>
-                    <li data-i18n="ros.list3">Mehrsprachige Schnittstellen für globale Zusammenarbeit</li>
-                </ul>
-                <a class="btn primary" href="#contact" data-i18n="ros.button">Online-Demo buchen</a>
             </div>
-        </section>
-
-        <section class="team" id="resources">
-            <div class="section-intro">
-                <span class="eyebrow" data-i18n="team.eyebrow">Führungsteam</span>
-                <h2 data-i18n="team.heading">Ein erfahrenes Research-Team liefert Ergebnisse im Co-Pilot-Modell</h2>
-            </div>
-            <div class="team-grid">
-                <article class="team-card">
-                    <div class="team-photo">
-                        <img src="assets/images/team-robert.png" alt="Porträt von Mitgründer Robert Miller" data-i18n-alt="team.member1.alt">
-                    </div>
-                    <div class="team-body">
-                        <h3>Robert Miller</h3>
-                        <p data-i18n="team.member1.role">Mitgründer &amp; Chief Strategy Officer; verantwortete die Risikorahmen mehrerer nordamerikanischer Multi-Milliarden-Quantfonds.</p>
-                        <span class="quote" data-i18n="team.member1.quote">„Wir liefern vollständige Transparenz vom Signal bis zur Ausführung.“</span>
-                    </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3 data-i18n="services.card1.title">Strategic Advisory Lab</h3>
+                    <p data-i18n="services.card1.desc">Discovery-Sprints richten Governance, Datenfundamente und Marktprioritäten aus.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.card1.point1">Architektur-Workshops gemeinsam mit Senior-Partnern</li>
+                        <li data-i18n="services.card1.point2">Regulatorische, Compliance- und Risiko-Playbooks</li>
+                        <li data-i18n="services.card1.point3">KPI-Roadmaps zwischen VenusIN-Kohorten und institutionellen Mandaten</li>
+                    </ul>
                 </article>
-                <article class="team-card">
-                    <div class="team-photo">
-                        <img src="assets/images/team-thomas.png" alt="Porträt von Mitgründer Thomas Kurz" data-i18n-alt="team.member2.alt">
-                    </div>
-                    <div class="team-body">
-                        <h3>Thomas Kurz</h3>
-                        <p data-i18n="team.member2.role">Mitgründer &amp; Chief Scientist; spezialisiert auf Machine Learning und Quant Finance mit Fokus auf Echtzeit-Entscheidungsrahmen.</p>
-                        <span class="quote" data-i18n="team.member2.quote">„Unser Auftrag ist es, institutionelle Entscheidungen schneller, smarter und belastbarer zu machen.“</span>
-                    </div>
+                <article class="service-card">
+                    <h3 data-i18n="services.card2.title">Quant Skills Accelerator</h3>
+                    <p data-i18n="services.card2.desc">Hybride Unterrichtsmodule verbinden Mentor:innen mit produktiven Toolchains.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.card2.point1">Wöchentliche Masterclasses unter Leitung der Research-Direktor:innen</li>
+                        <li data-i18n="services.card2.point2">KI-gestütztes Übungsumfeld auf Basis echter Desks</li>
+                        <li data-i18n="services.card2.point3">Portfoliolabore vereinen Unterrichts-Challenges und Live-Daten</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3 data-i18n="services.card3.title">Capital Partnership Desk</h3>
+                    <p data-i18n="services.card3.desc">Alumni-Strategien vernetzen wir mit unserem Co-Investment- und Operations-Netzwerk.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.card3.point1">Matching-Fonds und Angel-Syndikat-Intros</li>
+                        <li data-i18n="services.card3.point2">Dedizierter Execution-, Risiko- und Reporting-Concierge</li>
+                        <li data-i18n="services.card3.point3">Post-Deployment-Analytics mit vierteljährlichen Stewardship-Reviews</li>
+                    </ul>
                 </article>
             </div>
         </section>
 
-        <section class="cta-final" id="contact">
+        <section class="cta-final">
             <div class="cta-content">
                 <span class="eyebrow" data-i18n="cta.eyebrow">Jetzt starten</span>
                 <h2 data-i18n="cta.heading">Bauen Sie heute das nächste intelligente Research-Ökosystem</h2>
                 <p data-i18n="cta.paragraph">Holen Sie sich einen dedizierten Consultant und Testzugang, um KI-gestützte Strategieproduktivität sofort zu erleben.</p>
                 <div class="cta-actions">
-                    <a class="btn primary" href="mailto:contact@tethys-invest.com" data-i18n="cta.primary">Berater kontaktieren</a>
-                    <a class="btn ghost" href="#trial" data-i18n="cta.secondary">Testzugang anfragen</a>
+                    <a class="btn primary" href="about.html#contact" data-i18n="cta.primary">Berater kontaktieren</a>
+                    <a class="btn ghost" href="education.html" data-i18n="cta.secondary">Testzugang anfragen</a>
                 </div>
             </div>
         </section>
@@ -211,353 +162,32 @@
             <div class="footer-links">
                 <div>
                     <h4 data-i18n="footer.solutions">Lösungen</h4>
-                    <a href="#solutions" data-i18n="footer.solutions.strategy">Strategieentwicklung</a>
-                    <a href="#platform" data-i18n="footer.solutions.execution">Automatisierte Ausführung</a>
-                    <a href="#analytics" data-i18n="footer.solutions.risk">Risikosteuerung &amp; Compliance</a>
+                    <a href="index.html#solutions" data-i18n="footer.solutions.strategy">Strategieentwicklung</a>
+                    <a href="platform.html" data-i18n="footer.solutions.execution">Automatisierte Ausführung</a>
+                    <a href="platform.html#ros" data-i18n="footer.solutions.risk">Risikosteuerung &amp; Compliance</a>
                 </div>
                 <div>
                     <h4 data-i18n="footer.resources">Ressourcen</h4>
-                    <a href="#resources" data-i18n="footer.resources.team">Expertenteam</a>
-                    <a href="#contact" data-i18n="footer.resources.support">Support-Services</a>
-                    <a href="#trial" data-i18n="footer.resources.case">Kundenreferenzen</a>
+                    <a href="team.html" data-i18n="footer.resources.team">Expertenteam</a>
+                    <a href="about.html#contact" data-i18n="footer.resources.support">Support-Services</a>
+                    <a href="alumni.html" data-i18n="footer.resources.case">Kundenreferenzen</a>
                 </div>
                 <div>
                     <h4 data-i18n="footer.contact">Kontakt</h4>
                     <a href="mailto:contact@tethys-invest.com">contact@tethys-invest.com</a>
-                    <a href="tel:+85212345678">+852 1234 5678</a>
-                    <a href="#contact" data-i18n="footer.contact.demo">Demo vereinbaren</a>
+                    <a href="tel:+493012005670">+49 30 1200 5670</a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <span data-i18n="footer.bottom">&copy; 2025 Tethys Investment Alliance. Alle Rechte vorbehalten.</span>
             <div class="footer-legal">
-                <a href="#top" data-i18n="footer.privacy">Datenschutz</a>
-                <a href="#top" data-i18n="footer.terms">Nutzungsbedingungen</a>
+                <a href="about.html" data-i18n="footer.privacy">Datenschutz</a>
+                <a href="about.html" data-i18n="footer.terms">Nutzungsbedingungen</a>
             </div>
         </div>
     </footer>
 
-    <script>
-        const navToggle = document.querySelector('.nav-toggle');
-        if (navToggle) {
-            navToggle.addEventListener('click', () => {
-                const expanded = navToggle.getAttribute('aria-expanded') === 'true';
-                navToggle.setAttribute('aria-expanded', String(!expanded));
-                document.body.classList.toggle('nav-open', !expanded);
-            });
-        }
-
-        const translations = {
-            de: {
-                'meta.title': 'Tethys Investment Alliance | KI-gestützte Quant-Plattform',
-                'meta.description': 'Tethys Investment Alliance verbindet KI und quantitative Strategien, automatisiert Research-Workflows, liefert Echtzeit-Signale und steuert Risiken auf institutionellem Niveau.',
-                'nav.solutions': 'Lösungen',
-                'nav.platform': 'Intelligente Plattform',
-                'nav.team': 'Research-Team',
-                'nav.contact': 'Kontakt',
-                'nav.cta': 'Kostenlose Demo',
-                'nav.toggle': 'Navigation umschalten',
-                'language.switcherLabel': 'Sprache wählen',
-                'hero.eyebrow': 'AI-gestützte Quant Intelligence',
-                'hero.headline': 'Globale Märkte in Echtzeit erkennen und präzise Quant-Entscheidungen treffen',
-                'hero.paragraph': 'Wir kombinieren Deep Learning, natürliche Sprachverarbeitung und jahrzehntelange Buy-Side-Expertise, um eine durchgängige Plattform zu liefern, die Discovery, Validierung und Ausführung automatisiert.',
-                'hero.primary': 'Beratungstermin vereinbaren',
-                'hero.secondary': 'Plattformfunktionen ansehen',
-                'hero.highlight1': '<strong>24/7</strong> KI-gestützte Marktüberwachung',
-                'hero.highlight2': '<strong>120&nbsp;ms</strong> Signallaufzeit bis zum Desk',
-                'hero.highlight3': '<strong>99,9&nbsp;%</strong> Datenqualität mit Audit-Trail',
-                'hero.badgeTitle': 'Quant Research as a Service',
-                'hero.badgeText': 'Multi-Asset-Strategiebibliothek · Automatisiertes Backtesting · Mehrsprachige Kollaboration',
-                'hero.mediaAlt': 'Visualisiertes Quant-Dashboard mit Echtzeitkennzahlen',
-                'metrics.eyebrow': 'Institutionelle Ergebnisse',
-                'metrics.heading': 'Von Szenario-Strategien bis Risk Controls – messbare Resultate aus einer Hand',
-                'metrics.paragraph': 'Tethys Investment Alliance begleitet Family Offices, Broker-Dealer und Hedgefonds dabei, differenzierte Portfolios aufzubauen und sie in vollautomatisierte Execution-Infrastrukturen einzubetten.',
-                'metrics.card1.label': 'Backtesting-Szenarienbibliothek',
-                'metrics.card1.text': 'Über Aktien, ETFs, Futures und digitale Assets hinweg mit frei kombinierbaren Faktoren.',
-                'metrics.card2.label': 'Beschleunigte Signalauslieferung',
-                'metrics.card2.text': 'Der KI-Engine verkürzt den Weg von der Hypothese zur produktiven Strategie drastisch.',
-                'metrics.card3.label': 'Regulatorische Märkte im Fokus',
-                'metrics.card3.text': 'Integrierte Audit-Trails, Anomalieerkennung und Risk Playbooks für globale Aufsichten.',
-                'features.eyebrow': 'Plattform im Detail',
-                'features.heading': 'Modularer Aufbau, exakt auf Ihre Research-Pipelines abgestimmt',
-                'features.card1.title': 'AI-Signalfabrik',
-                'features.card1.desc': 'Aggregiert Datenquellen, extrahiert Features in Echtzeit und generiert erklärbare Handelssignale.',
-                'features.card1.point1': 'Früherkennung von Anomalien und Risikosignalen',
-                'features.card1.point2': 'Lifecycle-Governance für jede Strategie',
-                'features.card1.point3': 'Visualisierte Modell-Performance in Echtzeit',
-                'features.card2.title': 'Quant Execution Hub',
-                'features.card2.desc': 'Direkte Anbindung an Broker und Exchanges für Algo-, Basket- und Auto-Rebalancing-Orders.',
-                'features.card2.point1': 'Rollenbasierte Zugriffe über mehrere Konten',
-                'features.card2.point2': 'Intelligentes Order-Routing mit Slippage-Kontrolle',
-                'features.card2.point3': 'Live-Nettovermögen und Allokationsansichten',
-                'features.card3.title': 'Insight Visual Center',
-                'features.card3.desc': 'Dashboards verwandeln KI-Erkenntnisse in abgestimmte Entscheidungen über Teams hinweg.',
-                'features.card3.point1': 'Szenario-KPIs und individuelle Reports',
-                'features.card3.point2': 'Marktbriefings aus natürlicher Sprache',
-                'features.card3.point3': 'Nahtlose Integration via API und Webhooks',
-                'ros.mediaAlt': 'KI-gestützte Oberfläche für Strategie-Backtesting',
-                'ros.eyebrow': 'Research Operating System',
-                'ros.heading': 'Jede Minute des Research-Teams ist messbar, nachvollziehbar und skalierbar',
-                'ros.paragraph': 'Ein konfigurierbares Operating System zerlegt den Research-Prozess in wiederverwendbare Bausteine und baut ein strategisches Wissensgraph-Backbone auf.',
-                'ros.list1': 'Genehmigungs- und Audit-Trails für funktionsübergreifende Teams',
-                'ros.list2': 'End-to-End KPI-Tracking vom Insight bis zur Ausführung',
-                'ros.list3': 'Mehrsprachige Schnittstellen für globale Zusammenarbeit',
-                'ros.button': 'Online-Demo buchen',
-                'team.eyebrow': 'Führungsteam',
-                'team.heading': 'Ein erfahrenes Research-Team liefert Ergebnisse im Co-Pilot-Modell',
-                'team.member1.role': 'Mitgründer &amp; Chief Strategy Officer; verantwortete die Risikorahmen mehrerer nordamerikanischer Multi-Milliarden-Quantfonds.',
-                'team.member1.quote': '„Wir liefern vollständige Transparenz vom Signal bis zur Ausführung.“',
-                'team.member2.role': 'Mitgründer &amp; Chief Scientist; spezialisiert auf Machine Learning und Quant Finance mit Fokus auf Echtzeit-Entscheidungsrahmen.',
-                'team.member2.quote': '„Unser Auftrag ist es, institutionelle Entscheidungen schneller, smarter und belastbarer zu machen.“',
-                'team.member1.alt': 'Porträt von Mitgründer Robert Miller',
-                'team.member2.alt': 'Porträt von Mitgründer Thomas Kurz',
-                'cta.eyebrow': 'Jetzt starten',
-                'cta.heading': 'Bauen Sie heute das nächste intelligente Research-Ökosystem',
-                'cta.paragraph': 'Holen Sie sich einen dedizierten Consultant und Testzugang, um KI-gestützte Strategieproduktivität sofort zu erleben.',
-                'cta.primary': 'Berater kontaktieren',
-                'cta.secondary': 'Testzugang anfragen',
-                'footer.brand': 'Wir liefern KI-gestützte Research-, Execution- und Risk-Plattformen für institutionelle Investoren weltweit.',
-                'footer.solutions': 'Lösungen',
-                'footer.solutions.strategy': 'Strategieentwicklung',
-                'footer.solutions.execution': 'Automatisierte Ausführung',
-                'footer.solutions.risk': 'Risikosteuerung &amp; Compliance',
-                'footer.resources': 'Ressourcen',
-                'footer.resources.team': 'Expertenteam',
-                'footer.resources.support': 'Support-Services',
-                'footer.resources.case': 'Kundenreferenzen',
-                'footer.contact': 'Kontakt',
-                'footer.contact.demo': 'Demo vereinbaren',
-                'footer.bottom': '&copy; 2025 Tethys Investment Alliance. Alle Rechte vorbehalten.',
-                'footer.privacy': 'Datenschutz',
-                'footer.terms': 'Nutzungsbedingungen'
-            },
-            en: {
-                'meta.title': 'Tethys Investment Alliance | AI-powered Quantitative Platform',
-                'meta.description': 'Tethys Investment Alliance combines AI with quantitative strategies to automate research workflows, deliver real-time signals, and manage risk for institutional investors.',
-                'nav.solutions': 'Solutions',
-                'nav.platform': 'Intelligent Platform',
-                'nav.team': 'Research Team',
-                'nav.contact': 'Contact',
-                'nav.cta': 'Free Demo',
-                'nav.toggle': 'Toggle navigation',
-                'language.switcherLabel': 'Change language',
-                'hero.eyebrow': 'AI-First Quant Intelligence',
-                'hero.headline': 'See global markets in real time and act with precision',
-                'hero.paragraph': 'We merge deep learning, natural language understanding, and buy-side expertise to deliver an end-to-end institutional platform that automates discovery, validation, and execution.',
-                'hero.primary': 'Book a strategy advisor',
-                'hero.secondary': 'Explore platform capabilities',
-                'hero.highlight1': '<strong>24/7</strong> multi-market intelligence',
-                'hero.highlight2': '<strong>120&nbsp;ms</strong> signal delivery',
-                'hero.highlight3': '<strong>99.9%</strong> data accuracy with audit trail',
-                'hero.badgeTitle': 'Quant Research as a Service',
-                'hero.badgeText': 'Multi-asset strategy library · Automated backtesting · Multilingual collaboration',
-                'hero.mediaAlt': 'Intelligent research dashboard with real-time metrics',
-                'metrics.eyebrow': 'Institutional-Grade Results',
-                'metrics.heading': 'Scenario-led strategies and risk controls delivered end-to-end',
-                'metrics.paragraph': 'We partner with family offices, broker-dealers, and hedge funds to design differentiated portfolios and connect them to fully automated execution infrastructure.',
-                'metrics.card1.label': 'Strategy backtesting library',
-                'metrics.card1.text': 'Spans equities, ETFs, futures, and digital assets with flexible factor combinations.',
-                'metrics.card2.label': 'Faster signal response',
-                'metrics.card2.text': 'AI engine compresses the path from insight to live deployment.',
-                'metrics.card3.label': 'Regulated markets ready',
-                'metrics.card3.text': 'Embedded audit trails, anomaly detection, and risk playbooks for global oversight.',
-                'features.eyebrow': 'Platform Deep Dive',
-                'features.heading': 'Modular platform tailored to your research lifecycle',
-                'features.card1.title': 'AI Signal Factory',
-                'features.card1.desc': 'Ingests diverse data, engineers features in real time, and produces explainable trade signals.',
-                'features.card1.point1': 'Proactive anomaly and risk detection',
-                'features.card1.point2': 'Full lifecycle governance per strategy',
-                'features.card1.point3': 'Real-time model performance telemetry',
-                'features.card2.title': 'Quant Execution Hub',
-                'features.card2.desc': 'Connects directly to brokers and exchanges to support algo, basket, and auto-rebalancing orders.',
-                'features.card2.point1': 'Role-based access across accounts',
-                'features.card2.point2': 'Smart order routing with slippage control',
-                'features.card2.point3': 'Live NAV and allocation visibility',
-                'features.card3.title': 'Insight Visualization Center',
-                'features.card3.desc': 'Unified dashboards turn AI insights into coordinated decisions for every team.',
-                'features.card3.point1': 'Scenario KPIs and custom reporting',
-                'features.card3.point2': 'Market briefs in natural language',
-                'features.card3.point3': 'Seamless integration via API and webhooks',
-                'ros.mediaAlt': 'Strategy automation dashboard',
-                'ros.eyebrow': 'Research Operating System',
-                'ros.heading': 'Make every minute of your research team measurable, traceable, and scalable',
-                'ros.paragraph': 'A configurable operating system decomposes research into reusable modules and builds a strategic knowledge graph for transparent asset allocation.',
-                'ros.list1': 'Approval workflows and auditability across teams',
-                'ros.list2': 'End-to-end KPI tracking from insight to execution',
-                'ros.list3': 'Multilingual interfaces for global collaboration',
-                'ros.button': 'Schedule an online demo',
-                'team.eyebrow': 'Leadership',
-                'team.heading': 'Seasoned research leads delivering results alongside your team',
-                'team.member1.role': 'Co-founder &amp; Chief Strategy Officer; led risk frameworks for multi-billion North American quant funds.',
-                'team.member1.quote': '"We provide end-to-end transparency from signal to execution."',
-                'team.member2.role': 'Co-founder &amp; Chief Scientist; specializes in machine learning and quantitative finance with real-time decision frameworks.',
-                'team.member2.quote': '"Our mission is to make institutional decisions faster, smarter, and more reliable."',
-                'team.member1.alt': 'Portrait of co-founder Robert Miller',
-                'team.member2.alt': 'Portrait of co-founder Thomas Kurz',
-                'cta.eyebrow': 'Get Started',
-                'cta.heading': 'Build the next-generation intelligent research stack today',
-                'cta.paragraph': 'Request dedicated advisor support and trial access to experience AI-driven strategy productivity now.',
-                'cta.primary': 'Contact an advisor',
-                'cta.secondary': 'Request trial',
-                'footer.brand': 'Empowering institutional investors worldwide with AI-driven research, execution, and risk platforms.',
-                'footer.solutions': 'Solutions',
-                'footer.solutions.strategy': 'Strategy development',
-                'footer.solutions.execution': 'Automated execution',
-                'footer.solutions.risk': 'Risk &amp; compliance',
-                'footer.resources': 'Resources',
-                'footer.resources.team': 'Expert team',
-                'footer.resources.support': 'Support services',
-                'footer.resources.case': 'Client stories',
-                'footer.contact': 'Contact',
-                'footer.contact.demo': 'Book a demo',
-                'footer.bottom': '&copy; 2025 Tethys Investment Alliance. All rights reserved.',
-                'footer.privacy': 'Privacy policy',
-                'footer.terms': 'Terms of service'
-            },
-            zh: {
-                'meta.title': 'Tethys Investment Alliance | 智能投研驱动的量化平台',
-                'meta.description': 'Tethys Investment Alliance 以 AI 与量化策略驱动投研流程，提供实时市场扫描、自动信号与风控分析，帮助全球投资团队快速捕捉机会。',
-                'nav.solutions': '解决方案',
-                'nav.platform': '智能平台',
-                'nav.team': '投研团队',
-                'nav.contact': '联系我们',
-                'nav.cta': '免费试用',
-                'nav.toggle': '切换导航',
-                'language.switcherLabel': '选择语言',
-                'hero.eyebrow': 'AI 量化智能引擎',
-                'hero.headline': '实时洞察全球市场，驱动高胜率的量化决策',
-                'hero.paragraph': '我们将深度学习、自然语言解析与顶尖投研团队的行业经验融合，构建出面向机构的全栈式量化平台，让交易策略从发现、验证到执行均实现自动化与风险可控。',
-                'hero.primary': '预约策略顾问',
-                'hero.secondary': '查看平台能力',
-                'hero.highlight1': '<strong>24/7</strong> 多市场智能扫描',
-                'hero.highlight2': '<strong>120&nbsp;ms</strong> 级别信号触达',
-                'hero.highlight3': '<strong>99.9%</strong> 数据准确率与审计追踪',
-                'hero.badgeTitle': '量化研究即服务',
-                'hero.badgeText': '跨资产策略库 · 自动回测 · 多语言投研协作',
-                'hero.mediaAlt': '智能投研可视化仪表盘',
-                'metrics.eyebrow': '机构级成果',
-                'metrics.heading': '从场景化策略到智能风控，一站式交付可量化成果',
-                'metrics.paragraph': 'Tethys Investment Alliance 聚焦高净值家族办公室、券商资管与私募基金，通过数据因子平台迅速搭建差异化策略组合，并将执行接入全自动化的交易基础设施。',
-                'metrics.card1.label': '策略回测场景库',
-                'metrics.card1.text': '覆盖股票、ETF、期货及数字资产，支持多维因子排列组合。',
-                'metrics.card2.label': '信号响应效率提升',
-                'metrics.card2.text': '通过 AI 智能引擎压缩策略落地周期，将洞察转化为执行。',
-                'metrics.card3.label': '监管市场实时合规',
-                'metrics.card3.text': '内置交易记录留痕、异常监测与风控场景，满足机构级要求。',
-                'features.eyebrow': '平台深度解析',
-                'features.heading': '智能平台模块化构建，贴合您的投研流程',
-                'features.card1.title': 'AI 信号工厂',
-                'features.card1.desc': '多源数据接入、实时特征工程与自动化建模，在毫秒级别生成具备可解释性的交易信号。',
-                'features.card1.point1': '智能异常检测与风险预警',
-                'features.card1.point2': '策略全生命周期管理',
-                'features.card1.point3': '可视化模型表现追踪',
-                'features.card2.title': '量化执行中枢',
-                'features.card2.desc': '与全球主流券商及加密交易所深度对接，支持算法交易、篮子交易与自动调仓。',
-                'features.card2.point1': '多账户协同权限管理',
-                'features.card2.point2': '智能订单路由与滑点控制',
-                'features.card2.point3': '实时净值与资产配置视图',
-                'features.card3.title': '洞察可视化中心',
-                'features.card3.desc': '一站式仪表盘将 AI 洞察转化为可执行决策，帮助投研团队协同复盘，统一策略语言。',
-                'features.card3.point1': '场景化 KPI 与自定义报告',
-                'features.card3.point2': '自然语言生成的市场备忘录',
-                'features.card3.point3': 'API &amp; Webhook 无缝集成',
-                'ros.mediaAlt': '策略智能回测界面',
-                'ros.eyebrow': 'Research Operating System',
-                'ros.heading': '让投研团队的每一分钟都可衡量、可追踪、可扩展',
-                'ros.paragraph': '我们通过一套可配置的研究操作系统，将投研流程拆分为标准化组件，并辅助您快速构建策略知识图谱，从而实现资产配置的透明化与可复用。',
-                'ros.list1': '跨团队协作的审批流与审计穿透',
-                'ros.list2': '从洞察到执行的全链路 KPI 跟踪',
-                'ros.list3': '多语言接口，赋能全球团队共同协作',
-                'ros.button': '预约在线演示',
-                'team.eyebrow': 'Leadership',
-                'team.heading': '顶尖投研团队，陪伴式服务交付策略成果',
-                'team.member1.role': '联合创始人兼首席策略官，曾主导北美多只十亿美元级量化基金的风控体系。',
-                'team.member1.quote': '“从交易信号到执行，我们提供端到端的透明度。”',
-                'team.member2.role': '联合创始人兼首席科学家，专注机器学习与量化金融，带领团队打造实时 AI 决策框架。',
-                'team.member2.quote': '“我们的使命是让机构决策变得更快、更智能、更可靠。”',
-                'team.member1.alt': '联合创始人 Robert Miller',
-                'team.member2.alt': '联合创始人 Thomas Kurz',
-                'cta.eyebrow': 'Get Started',
-                'cta.heading': '构建下一代智能投研体系，从今天开始',
-                'cta.paragraph': '填写信息即可获取专属顾问支持与试用账号，立即体验 AI 驱动的策略生产力。',
-                'cta.primary': '联系顾问',
-                'cta.secondary': '预约试用',
-                'footer.brand': '专注为全球机构投资者提供 AI 驱动的投研、执行与风控平台。',
-                'footer.solutions': '解决方案',
-                'footer.solutions.strategy': '策略开发',
-                'footer.solutions.execution': '自动执行',
-                'footer.solutions.risk': '风控合规',
-                'footer.resources': '资源中心',
-                'footer.resources.team': '专家团队',
-                'footer.resources.support': '支持服务',
-                'footer.resources.case': '客户案例',
-                'footer.contact': '联系我们',
-                'footer.contact.demo': '预约演示',
-                'footer.bottom': '&copy; 2025 Tethys Investment Alliance. 保留所有权利。',
-                'footer.privacy': '隐私政策',
-                'footer.terms': '服务条款'
-            }
-        };
-
-        const languageButtons = document.querySelectorAll('.language-option');
-        const supportedLanguages = ['de', 'en', 'zh'];
-        const langAttributes = { de: 'de', en: 'en', zh: 'zh-CN' };
-
-        function applyTranslations(lang) {
-            const dict = translations[lang] || translations.de;
-            document.querySelectorAll('[data-i18n]').forEach((el) => {
-                const key = el.dataset.i18n;
-                if (dict[key]) {
-                    el.innerHTML = dict[key];
-                }
-            });
-
-            document.querySelectorAll('[data-i18n-alt]').forEach((el) => {
-                const key = el.dataset.i18nAlt;
-                if (dict[key]) {
-                    el.setAttribute('alt', dict[key]);
-                }
-            });
-
-            document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
-                const key = el.dataset.i18nAriaLabel;
-                if (dict[key]) {
-                    el.setAttribute('aria-label', dict[key]);
-                }
-            });
-
-            if (dict['meta.title']) {
-                document.title = dict['meta.title'];
-            }
-            const metaDescription = document.querySelector('meta[name="description"]');
-            if (metaDescription && dict['meta.description']) {
-                metaDescription.setAttribute('content', dict['meta.description']);
-            }
-            document.documentElement.lang = langAttributes[lang] || 'de';
-        }
-
-        function setLanguage(lang, persist = true) {
-            const target = supportedLanguages.includes(lang) ? lang : 'de';
-            languageButtons.forEach((btn) => {
-                btn.classList.toggle('active', btn.dataset.lang === target);
-            });
-            applyTranslations(target);
-            if (persist) {
-                localStorage.setItem('tia-lang', target);
-            }
-        }
-
-        languageButtons.forEach((button) => {
-            button.addEventListener('click', () => {
-                setLanguage(button.dataset.lang);
-            });
-        });
-
-        const storedLang = localStorage.getItem('tia-lang');
-        const browserLang = navigator.language ? navigator.language.slice(0, 2).toLowerCase() : 'de';
-        const initialLang = storedLang || (supportedLanguages.includes(browserLang) ? browserLang : 'de');
-        setLanguage(initialLang, false);
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
