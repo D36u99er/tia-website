@@ -365,6 +365,13 @@ ul {
   justify-self: center;
 }
 
+.hero-video-wrap {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 25px 60px rgba(5, 20, 60, 0.45);
+}
+
 .media-frame {
   border-radius: var(--radius-xl);
   padding: 1.1rem;
@@ -373,8 +380,18 @@ ul {
   position: relative;
 }
 
-.media-frame img {
+.media-frame img,
+.media-frame video {
   border-radius: calc(var(--radius-xl) - 12px);
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-hero .hero-video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .media-badge {

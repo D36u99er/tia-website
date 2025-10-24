@@ -123,7 +123,7 @@
                 'ros.button': 'Online-Demo buchen',
                 'alumni.eyebrow': 'Alumni-Highlights',
                 'alumni.heading': 'Herausragende Alumni prägen Märkte und Klassenzimmer',
-                'alumni.paragraph': 'Ausgewählte VenusIN-Absolvent:innen leiten heute führende Trading-Desks, Venture-Studios und Lernnetzwerke.',
+                'alumni.paragraph': 'Ausgewählte TIA-Alumni leiten heute führende Trading-Desks, Venture-Studios und Lernnetzwerke.',
                 'education.eyebrow': 'Bildung &amp; Reports',
                 'education.heading': 'Unterricht trifft Reporting in Institutionqualität',
                 'education.paragraph': 'Wir verbinden Lehrsaal, Research-Observatorium und Governance-Rhythmus zu einem nahtlosen Takt.',
@@ -384,7 +384,7 @@
                 'ros.button': 'Schedule an online demo',
                 'alumni.eyebrow': 'Alumni Highlights',
                 'alumni.heading': 'Outstanding alumni shaping markets and classrooms',
-                'alumni.paragraph': 'Selected graduates from VenusIN cohorts now steer flagship desks, venture studios, and learning networks.',
+                'alumni.paragraph': 'TIA alumni now steer flagship trading desks, venture studios, and learning networks.',
                 'education.eyebrow': 'Education &amp; Reports',
                 'education.heading': 'Classroom teaching meets institutional-grade reporting',
                 'education.paragraph': 'We blend teaching theatre, research observatory, and investor governance into one continuous cadence.',
@@ -645,7 +645,7 @@
                 'ros.button': '预约在线演示',
                 'alumni.eyebrow': '杰出校友榜',
                 'alumni.heading': '校友在市场与课堂持续发光',
-                'alumni.paragraph': 'VenusIN 的优秀毕业生如今领军头部交易席位、创投工作室与学习网络。',
+                'alumni.paragraph': 'TIA 联盟的优秀毕业生如今领军头部交易席位、创投工作室与学习网络。',
                 'education.eyebrow': '课堂教学 + 投资报告',
                 'education.heading': '教学节奏与机构级报告同频共振',
                 'education.paragraph': '课堂舞台、研究观测站与投资治理在一条节奏线上协同。',
@@ -813,305 +813,302 @@
 
         const alumniBase = [
             {
+                initials: 'QS',
+                names: {
+                    de: 'Mentoring-Slot · Quant Onboarding',
+                    en: 'Mentoring Slot · Quant Onboarding',
+                    zh: '导师席位 · 量化入营'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026 · läuft)',
+                    en: 'Cohort V (2025–2026 · in progress)',
+                    zh: '第 5 期 · 2025-2026（进行中）'
+                },
+                roles: {
+                    de: 'Service-Track für Frühstarter',
+                    en: 'Service track for early entrants',
+                    zh: '面向早鸟团队的服务通道'
+                },
+                quotes: {
+                    de: 'Reserviert Kapazitäten für Kohorte-V-Teams – wöchentliche KI-Mentorings und Strategie-Diagnosen.',
+                    en: 'Reserves capacity for Cohort V teams with weekly AI mentoring and strategy diagnostics.',
+                    zh: '为第 5 期团队预留席位，提供每周 AI 导师辅导与策略诊断。'
+                }
+            },
+            {
+                initials: 'DS',
+                names: {
+                    de: 'Diagnostic-Slot · Operating Blueprint',
+                    en: 'Diagnostic Slot · Operating Blueprint',
+                    zh: '诊断席位 · 操盘蓝图'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026 · läuft)',
+                    en: 'Cohort V (2025–2026 · in progress)',
+                    zh: '第 5 期 · 2025-2026（进行中）'
+                },
+                roles: {
+                    de: 'Blueprint-Begleitung für neue Streams',
+                    en: 'Blueprint facilitation for new streams',
+                    zh: '为新赛道提供蓝图陪跑'
+                },
+                quotes: {
+                    de: 'Stellt Research-OS-Playbooks, KPI-Layer und Audit-Templates bereit, damit Launch-Milestones konsistent bleiben.',
+                    en: 'Delivers Research OS playbooks, KPI layers, and audit templates to keep launch milestones consistent.',
+                    zh: '输出 Research OS Playbook、KPI 分层与审计模板，让上线节奏保持一致。'
+                }
+            },
+            {
+                initials: 'ES',
+                names: {
+                    de: 'Execution Residency Track',
+                    en: 'Execution Residency Track',
+                    zh: '执行驻场通道'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026 · läuft)',
+                    en: 'Cohort V (2025–2026 · in progress)',
+                    zh: '第 5 期 · 2025-2026（进行中）'
+                },
+                roles: {
+                    de: 'Trading-Desk Enablement',
+                    en: 'Trading desk enablement',
+                    zh: '交易席位赋能'
+                },
+                quotes: {
+                    de: 'Fokussiert Order-Routing-Sandboxen, Compliance-Runbooks und Execution-Retrospektiven für nahtlose Übergaben.',
+                    en: 'Focuses on order-routing sandboxes, compliance runbooks, and execution retrospectives for seamless handovers.',
+                    zh: '聚焦订单路由沙箱、合规 Runbook 与执行复盘，确保切换无缝。'
+                }
+            },
+            {
+                initials: 'JS',
+                names: { de: 'Johanna Seidel', en: 'Johanna Seidel', zh: 'Johanna Seidel' },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Leiterin Digital Liquidity, Meridian Global',
+                    en: 'Head of Digital Liquidity, Meridian Global',
+                    zh: 'Meridian Global 数字流动性负责人'
+                },
+                quotes: {
+                    de: 'Verschmolz TIA-Orderbooks mit OTC-Desks und hob die Cross-Venue-Fillrate um 22 %.',
+                    en: 'Blended TIA orderbooks with OTC desks, raising cross-venue fill rates by 22%.',
+                    zh: '整合 TIA 订单簿与场外席位，使跨场景成交率提升 22%。'
+                }
+            },
+            {
+                initials: 'ML',
+                names: { de: 'Markus Lenz', en: 'Markus Lenz', zh: 'Markus Lenz' },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Director Data Automation, AlpInvest Labs',
+                    en: 'Director of Data Automation, AlpInvest Labs',
+                    zh: 'AlpInvest Labs 数据自动化总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Factor-Snapshots stündlich und senkte den Reporting-Aufwand pro Mandat um 35 %.',
+                    en: 'Automated hourly factor snapshots, cutting reporting effort per mandate by 35%.',
+                    zh: '实现因子指标逐小时快照，将单个委托报告工作量削减 35%。'
+                }
+            },
+            {
+                initials: 'TK',
+                names: { de: 'Tobias Krämer', en: 'Tobias Krämer', zh: 'Tobias Krämer' },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Portfolio Lead, Rhein Heritage Partners',
+                    en: 'Portfolio Lead, Rhein Heritage Partners',
+                    zh: 'Rhein Heritage Partners 投资组合负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Cross-Asset-Stresstests via Research OS und bestand Regulator-Audits ohne Findings.',
+                    en: 'Implemented cross-asset stress tests via the Research OS and cleared regulator audits with zero findings.',
+                    zh: '借助 Research OS 部署跨资产压力测试，监管审计零缺陷通过。'
+                }
+            },
+            {
+                initials: 'FL',
+                names: { de: 'Friederike Lang', en: 'Friederike Lang', zh: 'Friederike Lang' },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Risk Analytics Lead, Hanse Quant',
+                    en: 'Risk Analytics Lead, Hanse Quant',
+                    zh: 'Hanse Quant 风险分析主管'
+                },
+                quotes: {
+                    de: 'Verknüpfte Echtzeit-VaR-Feeds mit Governance-Dashboards und halbierte Eskalationszeiten.',
+                    en: 'Linked real-time VaR feeds into governance dashboards, halving escalation response times.',
+                    zh: '将实时 VaR 数据接入治理仪表盘，将风险上报响应时间减半。'
+                }
+            },
+            {
+                initials: 'LB',
+                names: { de: 'Lukas Brandt', en: 'Lukas Brandt', zh: 'Lukas Brandt' },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Nordlicht Asset',
+                    en: 'Head of ESG Engineering, Nordlicht Asset',
+                    zh: 'Nordlicht Asset ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Baut KPI-Korridore für Impact-Mandate und synchronisierte sie mit dem TIA Scenario Studio.',
+                    en: 'Built KPI corridors for impact mandates and synced them with the TIA Scenario Studio.',
+                    zh: '为影响力投资委托构建 KPI 区间，并与 TIA 情景工作室联动。'
+                }
+            },
+            {
+                initials: 'EN',
+                names: { de: 'Eva Neumann', en: 'Eva Neumann', zh: 'Eva Neumann' },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Program Manager, TIA Academy EMEA',
+                    en: 'Program Manager, TIA Academy EMEA',
+                    zh: 'TIA Academy EMEA 项目经理'
+                },
+                quotes: {
+                    de: 'Skalierte zweisprachige Bootcamps in neun Städten und erzielte eine Completion-Rate von 96 %.',
+                    en: 'Scaled dual-language bootcamps across nine cities, achieving a 96% completion rate.',
+                    zh: '在九座城市扩展双语训练营，课程完成率达 96%。'
+                }
+            },
+            {
+                initials: 'RB',
+                names: { de: 'Ralf Berger', en: 'Ralf Berger', zh: 'Ralf Berger' },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Chief Technology Officer, Atlas Signals',
+                    en: 'Chief Technology Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席技术官'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale ins TIA Research OS und senkte Latenz um 47 %.',
+                    en: 'Migrated legacy signals into the TIA Research OS, reducing latency by 47%.',
+                    zh: '将遗留信号迁移至 TIA Research OS，延迟降低 47%。'
+                }
+            },
+            {
+                initials: 'MH',
+                names: { de: 'Mara Hofmann', en: 'Mara Hofmann', zh: 'Mara Hofmann' },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Director Client Advisory, Silbersee Capital',
+                    en: 'Director of Client Advisory, Silbersee Capital',
+                    zh: 'Silbersee Capital 客户顾问总监'
+                },
+                quotes: {
+                    de: 'Startete ein Multi-Family-Office-Playbook und band VenusIN-Alumni als Coach-Pool ein.',
+                    en: 'Launched a multi-family-office playbook and engaged VenusIN alumni as a coaching pool.',
+                    zh: '搭建家族办公室 Playbook，并引入 VenusIN 校友担任教练资源。'
+                }
+            },
+            {
+                initials: 'SV',
+                names: { de: 'Stefan Vogt', en: 'Stefan Vogt', zh: 'Stefan Vogt' },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Lead Strategist, Neue Horizonte Stiftung',
+                    en: 'Lead Strategist, Neue Horizonte Stiftung',
+                    zh: 'Neue Horizonte 基金会首席策略官'
+                },
+                quotes: {
+                    de: 'Erstellte Impact-Dashboards mit Live-Spenden-Streams und verknüpfte sie mit dem TIA KPI-Rahmen.',
+                    en: 'Built impact dashboards with live donation streams linked to the TIA KPI framework.',
+                    zh: '打造与 TIA KPI 框架联动的影响力仪表盘，实现实时捐赠流可视化。'
+                }
+            },
+            {
                 initials: 'EF',
                 names: { de: 'Elena Fischer', en: 'Elena Fischer', zh: 'Elena Fischer' },
-                cohorts: { de: 'Kohorte 2016', en: 'Cohort 2016', zh: '2016 级' },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
                 roles: {
                     de: 'Managing Partner, Helios Quant GmbH',
                     en: 'Managing Partner, Helios Quant GmbH',
                     zh: 'Helios Quant GmbH 管理合伙人'
                 },
                 quotes: {
-                    de: 'Skalierte ESG-Faktormodelle aus dem Abschlussprojekt zu einem Mandat über 1,2 Mrd. EUR.',
+                    de: 'Skalierte ESG-Faktormodelle aus dem Abschlussprojekt zu einem Mandat über 1,2 Mrd. EUR.',
                     en: 'Scaled ESG factor models from her capstone into a €1.2bn mandate.',
                     zh: '将 ESG 因子模型从毕业项目扩展为 12 亿欧元委托。'
                 }
             },
             {
-                initials: 'MT',
-                names: { de: 'Marcus Tan', en: 'Marcus Tan', zh: 'Marcus Tan' },
-                cohorts: { de: 'Kohorte 2018', en: 'Cohort 2018', zh: '2018 级' },
+                initials: 'JG',
+                names: { de: 'Jonas Gruber', en: 'Jonas Gruber', zh: 'Jonas Gruber' },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
                 roles: {
-                    de: 'Leiter Digitale Assets, Meridian Global',
-                    en: 'Head of Digital Assets, Meridian Global',
-                    zh: 'Meridian Global 数字资产负责人'
+                    de: 'Managing Director, Bayern Quant Collective',
+                    en: 'Managing Director, Bayern Quant Collective',
+                    zh: 'Bayern Quant Collective 董事总经理'
                 },
                 quotes: {
-                    de: 'Entwickelte eine markenübergreifende Liquiditäts-Engine auf Basis des TIA Research OS.',
-                    en: 'Built cross-exchange liquidity engines using the TIA Research OS.',
-                    zh: '借助 TIA Research Operating System 构建跨交易所流动性引擎。'
-                }
-            },
-            {
-                initials: 'LC',
-                names: { de: 'Liang Chen', en: 'Liang Chen', zh: '梁晨' },
-                cohorts: { de: 'Kohorte 2020', en: 'Cohort 2020', zh: '2020 级' },
-                roles: {
-                    de: 'Gründer, NovaEd Labs',
-                    en: 'Founder, NovaEd Labs',
-                    zh: 'NovaEd Labs 创始人'
-                },
-                quotes: {
-                    de: 'Setzt zweisprachige Quant-Curricula bei über 35 Hochschulpartnern ein.',
-                    en: 'Deploys bilingual quant curricula across 35+ university partners.',
-                    zh: '打造双语量化课程，覆盖 35+ 高校合作伙伴。'
-                }
-            },
-            {
-                initials: 'SM',
-                names: { de: 'Sofia Marques', en: 'Sofia Marques', zh: 'Sofia Marques' },
-                cohorts: { de: 'Kohorte 2015', en: 'Cohort 2015', zh: '2015 级' },
-                roles: {
-                    de: 'Director Macro Research, Luso Capital',
-                    en: 'Director of Macro Research, Luso Capital',
-                    zh: 'Luso Capital 宏观研究总监'
-                },
-                quotes: {
-                    de: 'Verknüpfte Macro-Radar-Reports mit automatisierten FX-Hedges für ihre Mandate.',
-                    en: 'Linked macro radar reports with automated FX hedges for client mandates.',
-                    zh: '将宏观雷达报告与自动化外汇对冲策略打通，服务核心客户。'
-                }
-            },
-            {
-                initials: 'HK',
-                names: { de: 'Hannah Keller', en: 'Hannah Keller', zh: 'Hannah Keller' },
-                cohorts: { de: 'Kohorte 2014', en: 'Cohort 2014', zh: '2014 级' },
-                roles: {
-                    de: 'Chief Data Officer, Rhein Analytics',
-                    en: 'Chief Data Officer, Rhein Analytics',
-                    zh: 'Rhein Analytics 首席数据官'
-                },
-                quotes: {
-                    de: 'Implementierte ein gemeinsames Data Mesh für quantitativen Research und Investment-Controlling.',
-                    en: 'Implemented a shared data mesh for quant research and investment controlling.',
-                    zh: '在量化研究与投后风控之间搭建统一的数据网格平台。'
-                }
-            },
-            {
-                initials: 'DV',
-                names: { de: 'Daniel Vogt', en: 'Daniel Vogt', zh: 'Daniel Vogt' },
-                cohorts: { de: 'Kohorte 2017', en: 'Cohort 2017', zh: '2017 级' },
-                roles: {
-                    de: 'Leiter Execution Desk, NordInvest',
-                    en: 'Head of Execution Desk, NordInvest',
-                    zh: 'NordInvest 执行团队负责人'
-                },
-                quotes: {
-                    de: 'Reduzierte Slippage um 38 % durch Playbooks aus dem TIA Execution Hub.',
-                    en: 'Reduced slippage by 38% using playbooks from the TIA Execution Hub.',
-                    zh: '利用 TIA 执行中枢的 Playbook，将滑点率降低 38%。'
-                }
-            },
-            {
-                initials: 'KW',
-                names: { de: 'Kenji Watanabe', en: 'Kenji Watanabe', zh: '渡边健二' },
-                cohorts: { de: 'Kohorte 2013', en: 'Cohort 2013', zh: '2013 级' },
-                roles: {
-                    de: 'Head of Quant Innovation, Sakura AM',
-                    en: 'Head of Quant Innovation, Sakura AM',
-                    zh: 'Sakura AM 量化创新负责人'
-                },
-                quotes: {
-                    de: 'Verknüpfte Live-Alpha-Signale mit ESG-Screenings in drei asiatischen Märkten.',
-                    en: 'Connected live alpha signals with ESG screening across three Asian markets.',
-                    zh: '在三大亚洲市场实现 Alpha 信号与 ESG 筛查的实时衔接。'
-                }
-            },
-            {
-                initials: 'AF',
-                names: { de: 'Amélie Fournier', en: 'Amélie Fournier', zh: 'Amélie Fournier' },
-                cohorts: { de: 'Kohorte 2012', en: 'Cohort 2012', zh: '2012 级' },
-                roles: {
-                    de: 'Partnerin, Atlantique Family Office',
-                    en: 'Partner, Atlantique Family Office',
-                    zh: 'Atlantique Family Office 合伙人'
-                },
-                quotes: {
-                    de: 'Baute mit VenusIN Alumni ein zweisprachiges Mentoring-Netzwerk für NextGen-Portfolios.',
-                    en: 'Created a bilingual mentoring network for next-gen portfolios with VenusIN alumni.',
-                    zh: '与 VenusIN 校友共建双语导师网络，为家族新生代组合护航。'
-                }
-            },
-            {
-                initials: 'PS',
-                names: { de: 'Priya Sharma', en: 'Priya Sharma', zh: 'Priya Sharma' },
-                cohorts: { de: 'Kohorte 2019', en: 'Cohort 2019', zh: '2019 级' },
-                roles: {
-                    de: 'Lead Data Scientist, DeltaEdge',
-                    en: 'Lead Data Scientist, DeltaEdge',
-                    zh: 'DeltaEdge 首席数据科学家'
-                },
-                quotes: {
-                    de: 'Automatisierte Research-Backlogs mit Knowledge Graphs und senkte Onboarding-Zeiten um 45 %.',
-                    en: 'Automated research backlogs with knowledge graphs, cutting onboarding time by 45%.',
-                    zh: '通过知识图谱自动化研究积压，将新人成熟时间缩短 45%。'
-                }
-            },
-            {
-                initials: 'JB',
-                names: { de: 'Jonas Bergmann', en: 'Jonas Bergmann', zh: 'Jonas Bergmann' },
-                cohorts: { de: 'Kohorte 2011', en: 'Cohort 2011', zh: '2011 级' },
-                roles: {
-                    de: 'Portfolio Manager, NordSee Pension',
-                    en: 'Portfolio Manager, NordSee Pension',
-                    zh: 'NordSee Pension 投资经理'
-                },
-                quotes: {
-                    de: 'Setzte Faktor-Kontrollen in einem 8-Mrd.-Euro-Pensionsfonds mithilfe von TIA Signalfabriken um.',
-                    en: 'Implemented factor controls in an €8bn pension fund using TIA signal factories.',
-                    zh: '依托 TIA 信号工厂，在 80 亿欧元养老基金中落地因子控制。'
-                }
-            },
-            {
-                initials: 'MK',
-                names: { de: 'Mateusz Kowalski', en: 'Mateusz Kowalski', zh: 'Mateusz Kowalski' },
-                cohorts: { de: 'Kohorte 2016', en: 'Cohort 2016', zh: '2016 级' },
-                roles: {
-                    de: 'Chief Risk Officer, Baltic Quant',
-                    en: 'Chief Risk Officer, Baltic Quant',
-                    zh: 'Baltic Quant 首席风控官'
-                },
-                quotes: {
-                    de: 'Integrierte Echtzeit-Stresstests mit dem Research Operating System und reduzierte Abweichungen um 30 %.',
-                    en: 'Embedded real-time stress tests via the Research Operating System, trimming variance by 30%.',
-                    zh: '借助 Research Operating System 实现实时压力测试，将偏差压降 30%。'
-                }
-            },
-            {
-                initials: 'IC',
-                names: { de: 'Isabella Conti', en: 'Isabella Conti', zh: 'Isabella Conti' },
-                cohorts: { de: 'Kohorte 2017', en: 'Cohort 2017', zh: '2017 级' },
-                roles: {
-                    de: 'Head of Client Analytics, Milano Capital',
-                    en: 'Head of Client Analytics, Milano Capital',
-                    zh: 'Milano Capital 客户分析主管'
-                },
-                quotes: {
-                    de: 'Erstellte mit Insight Visual Center ein paneuropäisches Reporting für Family Offices.',
-                    en: 'Built a pan-European reporting stack for family offices using the Insight Visual Center.',
-                    zh: '利用 Insight Visual Center 构建泛欧家族办公室报告体系。'
-                }
-            },
-            {
-                initials: 'LM',
-                names: { de: 'Lucas Martínez', en: 'Lucas Martínez', zh: 'Lucas Martínez' },
-                cohorts: { de: 'Kohorte 2018', en: 'Cohort 2018', zh: '2018 级' },
-                roles: {
-                    de: 'Chief Strategist, Andean Alpha',
-                    en: 'Chief Strategist, Andean Alpha',
-                    zh: 'Andean Alpha 首席策略官'
-                },
-                quotes: {
-                    de: 'Verknüpfte Multi-Asset-Signale mit LatAm-Liquiditätsdaten und verkürzte Rebalancing-Zyklen.',
-                    en: 'Linked multi-asset signals with LatAm liquidity data, shortening rebalancing cycles.',
-                    zh: '将多资产信号与拉美流动性数据联动，压缩再平衡周期。'
-                }
-            },
-            {
-                initials: 'ML',
-                names: { de: 'Mei Ling', en: 'Mei Ling', zh: '美玲' },
-                cohorts: { de: 'Kohorte 2015', en: 'Cohort 2015', zh: '2015 级' },
-                roles: {
-                    de: 'Director AI Ops, Pacifica Securities',
-                    en: 'Director of AI Ops, Pacifica Securities',
-                    zh: 'Pacifica Securities AI 运营总监'
-                },
-                quotes: {
-                    de: 'Stellte ein 24/7-Monitoring auf und reduzierte Modell-Drift um 22 %. ',
-                    en: 'Established 24/7 monitoring and cut model drift by 22%.',
-                    zh: '建立 24/7 模型监控体系，将模型漂移率降低 22%。'
-                }
-            },
-            {
-                initials: 'ON',
-                names: { de: 'Oliver Novak', en: 'Oliver Novak', zh: 'Oliver Novak' },
-                cohorts: { de: 'Kohorte 2010', en: 'Cohort 2010', zh: '2010 级' },
-                roles: {
-                    de: 'Investment Partner, Danube Ventures',
-                    en: 'Investment Partner, Danube Ventures',
-                    zh: 'Danube Ventures 投资合伙人'
-                },
-                quotes: {
-                    de: 'Startete ein Co-Investment-Programm für VenusIN Alumni-Strategien mit europäischem Fokus.',
-                    en: 'Launched a co-investment program for VenusIN alumni strategies focused on Europe.',
-                    zh: '发起面向 VenusIN 校友策略的欧洲共投计划。'
-                }
-            },
-            {
-                initials: 'VH',
-                names: { de: 'Viktoria Haas', en: 'Viktoria Haas', zh: 'Viktoria Haas' },
-                cohorts: { de: 'Kohorte 2021', en: 'Cohort 2021', zh: '2021 级' },
-                roles: {
-                    de: 'Analytics Lead, Alpine Hedge',
-                    en: 'Analytics Lead, Alpine Hedge',
-                    zh: 'Alpine Hedge 数据分析负责人'
-                },
-                quotes: {
-                    de: 'Implementierte Knowledge Graph Dashboards für ESG-Strategien mit 12 Länderteams.',
-                    en: 'Implemented knowledge graph dashboards for ESG strategies across 12 country teams.',
-                    zh: '为 12 个国家团队的 ESG 策略部署知识图谱仪表盘。'
+                    de: 'Baut seit 2022 Smart-Beta-Strategien mit dem TIA Co-Pilot und betreut heute 14 Mandate.',
+                    en: 'Since 2022 has built smart beta strategies with the TIA co-pilot and now supports 14 mandates.',
+                    zh: '自 2022 年起依托 TIA Co-Pilot 构建 Smart Beta 策略，目前服务 14 个委托。'
                 }
             },
             {
                 initials: 'CW',
-                names: { de: 'Chen Wei', en: 'Chen Wei', zh: '陈伟' },
-                cohorts: { de: 'Kohorte 2019', en: 'Cohort 2019', zh: '2019 级' },
+                names: { de: 'Clara Weiss', en: 'Clara Weiss', zh: 'Clara Weiss' },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
                 roles: {
-                    de: 'CTO, Horizon Delta',
-                    en: 'CTO, Horizon Delta',
-                    zh: 'Horizon Delta 首席技术官'
+                    de: 'Head of Research Partnerships, Helvetia Labs',
+                    en: 'Head of Research Partnerships, Helvetia Labs',
+                    zh: 'Helvetia Labs 研究合作负责人'
                 },
                 quotes: {
-                    de: 'Synchronisierte Research- und Execution-APIs für vier Broker-Desks in APAC.',
-                    en: 'Synchronized research and execution APIs for four broker desks across APAC.',
-                    zh: '在亚太四个券商席位间打通研究与执行 API。'
+                    de: 'Schuf Forschungs-Konsortien mit elf Universitäten und teilt KPI über das TIA Insight Center.',
+                    en: 'Created research consortia with eleven universities, sharing KPIs via the TIA Insight Center.',
+                    zh: '携手 11 所高校组建联合研究联盟，并通过 TIA Insight Center 共享 KPI。'
                 }
             },
-            {
-                initials: 'SJ',
-                names: { de: 'Sarah Johansson', en: 'Sarah Johansson', zh: 'Sarah Johansson' },
-                cohorts: { de: 'Kohorte 2014', en: 'Cohort 2014', zh: '2014 级' },
-                roles: {
-                    de: 'Head of Client Solutions, Aurora Quant',
-                    en: 'Head of Client Solutions, Aurora Quant',
-                    zh: 'Aurora Quant 客户解决方案负责人'
-                },
-                quotes: {
-                    de: 'Rollte Investor-Briefings in drei Sprachen aus und steigerte das NPS um 18 Punkte.',
-                    en: 'Rolled out investor briefings in three languages, raising NPS by 18 points.',
-                    zh: '推出三语投资者简报，将净推荐值提升 18 分。'
-                }
-            },
-            {
-                initials: 'AE',
-                names: { de: 'Ahmed El-Sayed', en: 'Ahmed El-Sayed', zh: 'Ahmed El-Sayed' },
-                cohorts: { de: 'Kohorte 2013', en: 'Cohort 2013', zh: '2013 级' },
-                roles: {
-                    de: 'Chief Investment Engineer, Nile Partners',
-                    en: 'Chief Investment Engineer, Nile Partners',
-                    zh: 'Nile Partners 首席投资工程师'
-                },
-                quotes: {
-                    de: 'Kombinierte Faktormodelle mit Rohstoff-Derivaten und erzielte zweistellige Sharpe-Steigerungen.',
-                    en: 'Combined factor models with commodity derivatives, producing double-digit Sharpe uplifts.',
-                    zh: '将因子模型与大宗商品衍生品结合，实现两位数 Sharpe 提升。'
-                }
-            },
-            {
-                initials: 'LR',
-                names: { de: 'Laura Richter', en: 'Laura Richter', zh: 'Laura Richter' },
-                cohorts: { de: 'Kohorte 2022', en: 'Cohort 2022', zh: '2022 级' },
-                roles: {
-                    de: 'Programmleiterin, VenusIN Fellowship',
-                    en: 'Program Lead, VenusIN Fellowship',
-                    zh: 'VenusIN Fellowship 项目负责人'
-                },
-                quotes: {
-                    de: 'Organisierte ein globales Fellowship mit 120 Mentor:innen und digitalem Report-Stack.',
-                    en: 'Organised a global fellowship with 120 mentors and a digital report stack.',
-                    zh: '打造覆盖 120 位导师的全球 Fellowship，并上线数字化报告链路。'
-                }
-            }
         ];
 
         const ALUMNI_PAGE_SIZE = 10;
