@@ -59,6 +59,10 @@ ssh "${ssh_options[@]}" "${BWG_USER}@${BWG_HOST}" "mkdir -p '${BWG_TARGET_DIR}'"
 
 echo "[deploy_bwg] 目标目录已准备"
 
+ssh "${ssh_options[@]}" "${BWG_USER}@${BWG_HOST}" "command -v rsync >/dev/null 2>&1 || (export DEBIAN_FRONTEND=noninteractive; apt-get update -y && apt-get install -y rsync)"
+
+echo "[deploy_bwg] 远端 rsync 准备完成"
+
 rsync -avz --delete "${rsync_excludes[@]}" \
   -e "ssh ${ssh_options[*]}" \
   ./ "${BWG_USER}@${BWG_HOST}:${BWG_TARGET_DIR}"
