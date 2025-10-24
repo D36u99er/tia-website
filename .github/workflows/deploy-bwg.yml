@@ -9,13 +9,22 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: bwg-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     name: Rsync static site to BWG
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Prepare deploy script
+        run: chmod +x scripts/deploy_bwg.sh
 
       - name: Deploy via deploy_bwg.sh
         env:
@@ -25,6 +34,4 @@ jobs:
           BWG_SSH_KEY: ${{ secrets.BWG_SSH_KEY }}
           BWG_PORT: ${{ secrets.BWG_PORT }}
           BWG_RSYNC_EXCLUDE: ${{ secrets.BWG_RSYNC_EXCLUDE }}
-        run: |
-          chmod +x scripts/deploy_bwg.sh
-          ./scripts/deploy_bwg.sh
+        run: ./scripts/deploy_bwg.sh

@@ -55,6 +55,10 @@ ssh_options=("-i" "${tmp_key}" "-p" "${BWG_PORT}" "-o" "StrictHostKeyChecking=no
 
 echo "[deploy_bwg] 开始同步到 ${BWG_USER}@${BWG_HOST}:${BWG_TARGET_DIR}"
 
+ssh "${ssh_options[@]}" "${BWG_USER}@${BWG_HOST}" "mkdir -p '${BWG_TARGET_DIR}'"
+
+echo "[deploy_bwg] 目标目录已准备"
+
 rsync -avz --delete "${rsync_excludes[@]}" \
   -e "ssh ${ssh_options[*]}" \
   ./ "${BWG_USER}@${BWG_HOST}:${BWG_TARGET_DIR}"
