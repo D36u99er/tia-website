@@ -248,6 +248,33 @@
                 'team.member2.quote': '„Wir orchestrieren eine Allianz, die institutionelle Teams mit einem kuratierten KI-Stack verbindet.“',
                 'team.member1.alt': 'Porträt von Mitgründer und Teilzeit-Wissenschaftler Robert Miller',
                 'team.member2.alt': 'Porträt von Gründer und CEO Thomas Kurz',
+                                'team.profile.thomas.title': 'Thomas Kurz · Gründer &amp; CEO',
+                'team.profile.thomas.summary': 'Geburtsdatum: 27. Juni 1969; Alma Mater: LMU München (Studienbeginn 1987, Promotion 1995); Rolle: Gründer der Tethys Investment Alliance, Vater des Intelligenter Hightech-Roboter 5; Wohnort: Frankfurt am Main; Vater: verstarb 2020 nach dem Börsencrash; Mutter: im Ruhestand.',
+                'team.profile.thomas.birth.title': 'Geburtsgeschichte',
+                'team.profile.thomas.birth.body1': 'Thomas Kurz wuchs in einer Kleinstadt 30 Kilometer von München entfernt auf. Sein Vater arbeitete in einer Autofabrik, seine Mutter unterrichtete an der örtlichen Grundschule. Fahrradtouren, Wanderungen und Camping prägten seine Kindheit und stärkten seine Widerstandskraft.',
+                'team.profile.thomas.study.title': 'Studienzeit',
+                'team.profile.thomas.study.body1': 'Sein mathematisches Talent zeigte sich früh: Schon als Teenager löste er komplexe Rechnungen und trat 1987 in die Goethe-Universität Frankfurt ein. Dort verband er Seminare mit aktivem Aktienhandel und beeindruckte Mentor:innen mit präzisen Marktanalysen.',
+                'team.profile.thomas.career.title': 'Karriere &amp; Beratung',
+                'team.profile.thomas.career.body1': '1995 stieß er als Quant-Händler zur Deutschen Bank, erzielte innerhalb von drei Jahren 50 Millionen Euro und wurde als „Magier der Finanzmärkte“ bekannt. Er beriet später Citi Europe, die KfW und BlackRock Deutschland.',
+                'team.profile.thomas.achievements.title': 'Ausgewählte Erfolge',
+                'team.profile.thomas.achievements.item1': '2021: Nutzte den Bitcoin-Bullenmarkt, baute Positionen früh auf und realisierte Gewinne am Hoch.',
+                'team.profile.thomas.achievements.item2': '2022: Positionierte sich während der Energiepreisschocks antizyklisch und erzielte außergewöhnliche Renditen.',
+                'team.profile.thomas.achievements.item3': '2023: Erzielt über 17 % Rendite auf den DAX und 47 % auf SAP durch sorgfältige Portfolioallokation.',
+                'team.profile.thomas.achievements.item4': '2024: Investition in AUTO1 Group brachte nahezu 350 % Gewinn dank datengetriebener Analyse.',
+                'team.profile.thomas.turning.title': 'Lebenswende 2020',
+                'team.profile.thomas.turning.body1': 'Der pandemiebedingte Crash vernichtete sein Vermögen, sein Vater starb an einem Herzinfarkt und familiäre Beziehungen zerbrachen. Die Krise zwang ihn zur Neuorientierung.',
+                'team.profile.thomas.transformation.title': 'Transformation &amp; Neubeginn',
+                'team.profile.thomas.transformation.body1': 'In einer einsamen Waldhütte reflektierte er über Sinn und Verantwortung des Investierens. Mit Unterstützung der Deutschen Bank kehrte er zurück, entwickelte neue Finanzwerkzeuge und beschloss, anderen Investor:innen Sicherheit zu geben.',
+                'team.profile.thomas.belief.title': 'Lebenslange Überzeugung',
+                'team.profile.thomas.belief.body1': 'Thomas ist überzeugt, dass Wohlstand nur dann Kraft entfaltet, wenn er mit Liebe, Hingabe und dem Teilen von Wissen verbunden ist. So entsteht nachhaltige Transformation für ihn und seine Kund:innen.',
+                'team.profile.robert.title': 'Robert Miller · Mitgründer &amp; Chief Scientist',
+                'team.profile.robert.summary': 'Geburtsdatum: 21. Mai 1971; Geburtsort: Santa Rosa, USA; Wohnort: San Francisco; Abschluss: Doppelbachelor in Financial Engineering &amp; Informatik (Stanford 1994); Eltern: verstorben.',
+                'team.profile.robert.early.title': 'Frühe Karriere',
+                'team.profile.robert.early.body1': 'Nach dem Studium arbeitete er im Quant-Research der Deutschen Bank USA, entwickelte Risiko-, Pricing- und Portfoliomodelle und trieb Hochfrequenzhandel voran.',
+                'team.profile.robert.ai.title': 'KI- &amp; Dateninnovation',
+                'team.profile.robert.ai.body1': 'Er integrierte früh künstliche Intelligenz und Big Data in seine Arbeit, um Marktprognosen zu schärfen und Handelsausführung zu optimieren – Grundlage späterer FinTech-Innovationen.',
+                'team.profile.robert.alliance.title': 'Gründung der Allianz',
+                'team.profile.robert.alliance.body1': 'Der COVID-19-Crash 2020 reduzierte sein Vermögen um fast 70 %. Gemeinsam mit Thomas Kurz gründete er die Tethys Investment Alliance und entwickelte den „Genius Intelligent Robot 5.0“, um Anlegervermögen mit KI und Daten zu schützen.',
                 'contact.eyebrow': 'Kontakt aufnehmen',
                 'contact.heading': 'Wir begleiten Sie vom ersten Workshop bis zur Live-Schaltung',
                 'contact.paragraph': 'Wählen Sie den passenden Kanal – wir melden uns innerhalb eines Werktags mit den richtigen Unterlagen oder einer Live-Demo.',
@@ -509,6 +536,33 @@
                 'team.member2.quote': '"We align institutional teams around a curated AI stack and partner network."',
                 'team.member1.alt': 'Portrait of co-founder and part-time scientist Robert Miller',
                 'team.member2.alt': 'Portrait of founder and CEO Thomas Kurz',
+                                'team.profile.thomas.title': 'Thomas Kurz · Founder &amp; CEO',
+                'team.profile.thomas.summary': 'Date of birth: 27 June 1969; Alma mater: LMU Munich (enrolled 1987, PhD 1995); Role: Founder of Tethys Investment Alliance and creator of Intelligenter Hightech-Roboter 5; Residence: Frankfurt am Main; Father: died of a heart attack in 2020; Mother: retired.',
+                'team.profile.thomas.birth.title': 'Origin Story',
+                'team.profile.thomas.birth.body1': 'Thomas Kurz grew up in a town 30 kilometres from Munich. His father worked in an automobile plant, his mother taught primary school, and endless cycling, hiking and camping forged his resilience.',
+                'team.profile.thomas.study.title': 'Education',
+                'team.profile.thomas.study.body1': 'Gifted in mathematics, he solved complex calculations as a teenager and entered Goethe University Frankfurt at 18. He traded equities during his studies and impressed mentors with acute market reads.',
+                'team.profile.thomas.career.title': 'Career &amp; Advisory Roles',
+                'team.profile.thomas.career.body1': 'Joining Deutsche Bank in 1995, he built a 50 million euro track record within three years, earning the moniker “magician of the markets” and later advising Citi Europe, KfW and BlackRock Germany.',
+                'team.profile.thomas.achievements.title': 'Selected Performance',
+                'team.profile.thomas.achievements.item1': '2021: Timed the bitcoin bull run, scaling in early and exiting near the peak.',
+                'team.profile.thomas.achievements.item2': '2022: Took contrarian energy positions through the supply shock and delivered outsized gains.',
+                'team.profile.thomas.achievements.item3': '2023: Generated 17% on DAX positions and 47% on SAP with disciplined allocation.',
+                'team.profile.thomas.achievements.item4': '2024: Captured nearly 350% by backing AUTO1 Group’s turnaround with data-led conviction.',
+                'team.profile.thomas.turning.title': 'Turning Point in 2020',
+                'team.profile.thomas.turning.body1': 'The pandemic crash erased his book, his father passed away, and family ties fractured, forcing a fundamental reassessment.',
+                'team.profile.thomas.transformation.title': 'Rebuild &amp; Renewal',
+                'team.profile.thomas.transformation.body1': 'Retreating to a cabin, he redefined the mission of investing, then returned with Deutsche Bank’s support to craft tools that protect fellow investors from repeating his losses.',
+                'team.profile.thomas.belief.title': 'Enduring Belief',
+                'team.profile.thomas.belief.body1': 'He holds that wealth gains true power only when paired with love, service and the sharing of financial wisdom.',
+                'team.profile.robert.title': 'Robert Miller · Co-founder &amp; Chief Scientist',
+                'team.profile.robert.summary': 'Date of birth: 21 May 1971; Birthplace: Santa Rosa, USA; Residence: San Francisco; Education: Stanford University dual BSc in financial engineering &amp; computer science (1994); Parents: deceased.',
+                'team.profile.robert.early.title': 'Early Career',
+                'team.profile.robert.early.body1': 'He joined Deutsche Bank USA’s quantitative research desk to build risk, pricing and portfolio models while advancing high-frequency trading.',
+                'team.profile.robert.ai.title': 'AI &amp; Data Exploration',
+                'team.profile.robert.ai.body1': 'He pioneered the use of AI and big data to sharpen forecasts and streamline execution, laying the groundwork for intelligent finance breakthroughs.',
+                'team.profile.robert.alliance.title': 'Alliance Formation',
+                'team.profile.robert.alliance.body1': 'After a 70% drawdown during the 2020 crisis, he and Thomas Kurz founded Tethys Investment Alliance and created the “Genius Intelligent Robot 5.0” to safeguard investor wealth with automation.',
                 'contact.eyebrow': 'Get in touch',
                 'contact.heading': 'We support you from the first workshop to a live deployment',
                 'contact.paragraph': 'Pick the channel that suits you—expect a tailored response within one business day.',
@@ -770,6 +824,33 @@
                 'team.member2.quote': '“我们把机构团队与精选的 AI 技术栈和伙伴网络联结起来。”',
                 'team.member1.alt': '联合创始人兼兼职科学家 Robert Miller',
                 'team.member2.alt': '同盟会创始人兼 CEO Thomas Kurz',
+                                'team.profile.thomas.title': '托马斯·库尔茨 · 创始人兼 CEO',
+                'team.profile.thomas.summary': '出生日期：1969年6月27日；母校：慕尼黑大学（1987年入学，1995年博士毕业）；职业：Tethys Investment Alliance 创始人，Intelligenter Hightech-Roboter 5 之父；现住址：美因河畔法兰克福市；父亲：2020 年突发心脏病去世；母亲：已退休。',
+                'team.profile.thomas.birth.title': '出生经历',
+                'team.profile.thomas.birth.body1': '托马斯出生在距离慕尼黑 30 公里的小镇，父亲是汽车工厂工人，母亲是小学老师。童年热爱骑行、徒步和露营的他，在户外历练中养成独立坚韧的性格。',
+                'team.profile.thomas.study.title': '学习经历',
+                'team.profile.thomas.study.body1': '他自幼数学天赋惊人，18 岁进入法兰克福歌德大学金融学院，课堂与股票交易表现皆令人惊艳，对市场节奏理解深刻。',
+                'team.profile.thomas.career.title': '工作经历',
+                'team.profile.thomas.career.body1': '1995 年加入德国商业银行成为量化交易员，三年积累 5,000 万欧元收益，被称为“金融市场的魔术师”，并担任花旗欧洲、德国复兴信贷银行、贝莱德德国等顾问。',
+                'team.profile.thomas.achievements.title': '代表战绩',
+                'team.profile.thomas.achievements.item1': '2021 年：在比特币牛市中低位布局、高位逃顶，树立智能投资典范。',
+                'team.profile.thomas.achievements.item2': '2022 年：能源供应链危机期间逆势建仓，取得瞩目回报。',
+                'team.profile.thomas.achievements.item3': '2023 年：DAX 策略收益超过 17%，SAP 单笔收益超过 47%。',
+                'team.profile.thomas.achievements.item4': '2024 年：敏锐捕捉 AUTO1 Group 机会，实现近 350% 收益。',
+                'team.profile.thomas.turning.title': '人生转折',
+                'team.profile.thomas.turning.body1': '2020 年疫情股灾令其资产归零，父亲因心脏病离世，家庭关系跌入谷底。',
+                'team.profile.thomas.transformation.title': '人生蜕变',
+                'team.profile.thomas.transformation.body1': '在林间小屋独自反思后，他重塑投资使命，重返德银打造能帮助投资者的金融工具。',
+                'team.profile.thomas.belief.title': '终身信念',
+                'team.profile.thomas.belief.body1': '托马斯坚信财富要与爱和奉献同行，通过分享智慧帮助他人，才能实现真正的转变。',
+                'team.profile.robert.title': '罗伯特·米勒 · 联合创始人兼首席科学家',
+                'team.profile.robert.summary': '出生日期：1971 年 5 月 21 日；出生地：美国圣罗莎；居住地：美国旧金山；1989 年进入斯坦福大学，1994 年获金融工程与计算机科学双学士；父母均已离世。',
+                'team.profile.robert.early.title': '早期职业生涯',
+                'team.profile.robert.early.body1': '毕业后进入德国商业银行美国分公司量化研究部门，负责风险评估、资产定价与投资组合管理模型，并投入算法交易研究。',
+                'team.profile.robert.ai.title': 'AI 与大数据探索',
+                'team.profile.robert.ai.body1': '他率先将人工智能与大数据应用于量化研究，提升市场预测准确度，并通过数据分析优化交易执行策略。',
+                'team.profile.robert.alliance.title': '成为特提斯同盟会联合创始人',
+                'team.profile.robert.alliance.body1': '2020 年疫情导致资产在短短十几天内缩水近 70%，他与托马斯携手创立特提斯投资同盟，研发“天才智能机器人 5.0”保护投资者资产。',
                 'contact.eyebrow': '联系我们',
                 'contact.heading': '从第一场 Workshop 到正式上线，我们全程陪伴',
                 'contact.paragraph': '请选择合适的渠道，我们将在 1 个工作日内提供定制化回复或演示。',
@@ -1108,7 +1189,2031 @@
                     en: 'Created research consortia with eleven universities, sharing KPIs via the TIA Insight Center.',
                     zh: '携手 11 所高校组建联合研究联盟，并通过 TIA Insight Center 共享 KPI。'
                 }
+            },            {
+                initials: 'AR',
+                names: {
+                    de: 'Anna Richter',
+                    en: 'Anna Richter',
+                    zh: 'Anna Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Helios Quant',
+                    en: 'Head of Quant Research, Helios Quant',
+                    zh: 'Helios Quant 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
             },
+            {
+                initials: 'LR',
+                names: {
+                    de: 'Lena Richter',
+                    en: 'Lena Richter',
+                    zh: 'Lena Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Nordlicht Asset',
+                    en: 'Director of Data Strategy, Nordlicht Asset',
+                    zh: 'Nordlicht Asset 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'MR',
+                names: {
+                    de: 'Mara Richter',
+                    en: 'Mara Richter',
+                    zh: 'Mara Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Atlas Signals',
+                    en: 'Chief Risk Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'CR',
+                names: {
+                    de: 'Clara Richter',
+                    en: 'Clara Richter',
+                    zh: 'Clara Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, Meridian Global',
+                    en: 'Head of Trading Infrastructure, Meridian Global',
+                    zh: 'Meridian Global 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'NR',
+                names: {
+                    de: 'Nina Richter',
+                    en: 'Nina Richter',
+                    zh: 'Nina Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Silbersee Capital',
+                    en: 'AI Lab Program Lead, Silbersee Capital',
+                    zh: 'Silbersee Capital AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'SR',
+                names: {
+                    de: 'Sophie Richter',
+                    en: 'Sophie Richter',
+                    zh: 'Sophie Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Vanguard Labs Europe',
+                    en: 'Managing Partner, Vanguard Labs Europe',
+                    zh: 'Vanguard Labs Europe 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'LI',
+                names: {
+                    de: 'Larissa Richter',
+                    en: 'Larissa Richter',
+                    zh: 'Larissa Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Aurora Capital Partners',
+                    en: 'Director of Portfolio Analytics, Aurora Capital Partners',
+                    zh: 'Aurora Capital Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'KR',
+                names: {
+                    de: 'Katrin Richter',
+                    en: 'Katrin Richter',
+                    zh: 'Katrin Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Quantum Harbor',
+                    en: 'Head of ESG Engineering, Quantum Harbor',
+                    zh: 'Quantum Harbor ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'LR8',
+                names: {
+                    de: 'Lea Richter',
+                    en: 'Lea Richter',
+                    zh: 'Lea Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aegis Markets',
+                    en: 'Lead of Execution Services, Aegis Markets',
+                    zh: 'Aegis Markets 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'PR',
+                names: {
+                    de: 'Paula Richter',
+                    en: 'Paula Richter',
+                    zh: 'Paula Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Orion Research',
+                    en: 'Head of Market Intelligence, Orion Research',
+                    zh: 'Orion Research 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'JR',
+                names: {
+                    de: 'Jonas Richter',
+                    en: 'Jonas Richter',
+                    zh: 'Jonas Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Sternwerk Finance',
+                    en: 'Head of Quant Research, Sternwerk Finance',
+                    zh: 'Sternwerk Finance 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'TR',
+                names: {
+                    de: 'Tobias Richter',
+                    en: 'Tobias Richter',
+                    zh: 'Tobias Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Blue Ridge Analytics',
+                    en: 'Director of Data Strategy, Blue Ridge Analytics',
+                    zh: 'Blue Ridge Analytics 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'FR',
+                names: {
+                    de: 'Felix Richter',
+                    en: 'Felix Richter',
+                    zh: 'Felix Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Cascade Advisory',
+                    en: 'Chief Risk Officer, Cascade Advisory',
+                    zh: 'Cascade Advisory 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'MI',
+                names: {
+                    de: 'Matthias Richter',
+                    en: 'Matthias Richter',
+                    zh: 'Matthias Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, VectorBridge',
+                    en: 'Head of Trading Infrastructure, VectorBridge',
+                    zh: 'VectorBridge 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'SI',
+                names: {
+                    de: 'Sebastian Richter',
+                    en: 'Sebastian Richter',
+                    zh: 'Sebastian Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Polaris Futures',
+                    en: 'AI Lab Program Lead, Polaris Futures',
+                    zh: 'Polaris Futures AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'LR5',
+                names: {
+                    de: 'Lukas Richter',
+                    en: 'Lukas Richter',
+                    zh: 'Lukas Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Hanse Quant Labs',
+                    en: 'Managing Partner, Hanse Quant Labs',
+                    zh: 'Hanse Quant Labs 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'SR6',
+                names: {
+                    de: 'Simon Richter',
+                    en: 'Simon Richter',
+                    zh: 'Simon Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Summit Ridge Partners',
+                    en: 'Director of Portfolio Analytics, Summit Ridge Partners',
+                    zh: 'Summit Ridge Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'BR',
+                names: {
+                    de: 'Benedikt Richter',
+                    en: 'Benedikt Richter',
+                    zh: 'Benedikt Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Momentum Forge',
+                    en: 'Head of ESG Engineering, Momentum Forge',
+                    zh: 'Momentum Forge ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'FI',
+                names: {
+                    de: 'Fabian Richter',
+                    en: 'Fabian Richter',
+                    zh: 'Fabian Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aquila Macro',
+                    en: 'Lead of Execution Services, Aquila Macro',
+                    zh: 'Aquila Macro 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'MR9',
+                names: {
+                    de: 'Martin Richter',
+                    en: 'Martin Richter',
+                    zh: 'Martin Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Signal Foundry',
+                    en: 'Head of Market Intelligence, Signal Foundry',
+                    zh: 'Signal Foundry 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'HR',
+                names: {
+                    de: 'Helena Richter',
+                    en: 'Helena Richter',
+                    zh: 'Helena Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Helios Quant',
+                    en: 'Head of Quant Research, Helios Quant',
+                    zh: 'Helios Quant 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'IR',
+                names: {
+                    de: 'Isabell Richter',
+                    en: 'Isabell Richter',
+                    zh: 'Isabell Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Nordlicht Asset',
+                    en: 'Director of Data Strategy, Nordlicht Asset',
+                    zh: 'Nordlicht Asset 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'CI',
+                names: {
+                    de: 'Charlotte Richter',
+                    en: 'Charlotte Richter',
+                    zh: 'Charlotte Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Atlas Signals',
+                    en: 'Chief Risk Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'MR3',
+                names: {
+                    de: 'Miriam Richter',
+                    en: 'Miriam Richter',
+                    zh: 'Miriam Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, Meridian Global',
+                    en: 'Head of Trading Infrastructure, Meridian Global',
+                    zh: 'Meridian Global 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'FR4',
+                names: {
+                    de: 'Franziska Richter',
+                    en: 'Franziska Richter',
+                    zh: 'Franziska Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Silbersee Capital',
+                    en: 'AI Lab Program Lead, Silbersee Capital',
+                    zh: 'Silbersee Capital AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'ER',
+                names: {
+                    de: 'Elena Richter',
+                    en: 'Elena Richter',
+                    zh: 'Elena Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Vanguard Labs Europe',
+                    en: 'Managing Partner, Vanguard Labs Europe',
+                    zh: 'Vanguard Labs Europe 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'GR',
+                names: {
+                    de: 'Greta Richter',
+                    en: 'Greta Richter',
+                    zh: 'Greta Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Aurora Capital Partners',
+                    en: 'Director of Portfolio Analytics, Aurora Capital Partners',
+                    zh: 'Aurora Capital Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'LR7',
+                names: {
+                    de: 'Laura Richter',
+                    en: 'Laura Richter',
+                    zh: 'Laura Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Quantum Harbor',
+                    en: 'Head of ESG Engineering, Quantum Harbor',
+                    zh: 'Quantum Harbor ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'EI',
+                names: {
+                    de: 'Eva Richter',
+                    en: 'Eva Richter',
+                    zh: 'Eva Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aegis Markets',
+                    en: 'Lead of Execution Services, Aegis Markets',
+                    zh: 'Aegis Markets 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'VR',
+                names: {
+                    de: 'Vanessa Richter',
+                    en: 'Vanessa Richter',
+                    zh: 'Vanessa Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Orion Research',
+                    en: 'Head of Market Intelligence, Orion Research',
+                    zh: 'Orion Research 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'OR',
+                names: {
+                    de: 'Oliver Richter',
+                    en: 'Oliver Richter',
+                    zh: 'Oliver Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Sternwerk Finance',
+                    en: 'Head of Quant Research, Sternwerk Finance',
+                    zh: 'Sternwerk Finance 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'DR',
+                names: {
+                    de: 'David Richter',
+                    en: 'David Richter',
+                    zh: 'David Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Blue Ridge Analytics',
+                    en: 'Director of Data Strategy, Blue Ridge Analytics',
+                    zh: 'Blue Ridge Analytics 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'PI',
+                names: {
+                    de: 'Philipp Richter',
+                    en: 'Philipp Richter',
+                    zh: 'Philipp Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Cascade Advisory',
+                    en: 'Chief Risk Officer, Cascade Advisory',
+                    zh: 'Cascade Advisory 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'JI',
+                names: {
+                    de: 'Julian Richter',
+                    en: 'Julian Richter',
+                    zh: 'Julian Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, VectorBridge',
+                    en: 'Head of Trading Infrastructure, VectorBridge',
+                    zh: 'VectorBridge 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'RR',
+                names: {
+                    de: 'Rafael Richter',
+                    en: 'Rafael Richter',
+                    zh: 'Rafael Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Polaris Futures',
+                    en: 'AI Lab Program Lead, Polaris Futures',
+                    zh: 'Polaris Futures AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'NI',
+                names: {
+                    de: 'Niklas Richter',
+                    en: 'Niklas Richter',
+                    zh: 'Niklas Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Hanse Quant Labs',
+                    en: 'Managing Partner, Hanse Quant Labs',
+                    zh: 'Hanse Quant Labs 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'DI',
+                names: {
+                    de: 'Dominik Richter',
+                    en: 'Dominik Richter',
+                    zh: 'Dominik Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Summit Ridge Partners',
+                    en: 'Director of Portfolio Analytics, Summit Ridge Partners',
+                    zh: 'Summit Ridge Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'SR7',
+                names: {
+                    de: 'Stefan Richter',
+                    en: 'Stefan Richter',
+                    zh: 'Stefan Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Momentum Forge',
+                    en: 'Head of ESG Engineering, Momentum Forge',
+                    zh: 'Momentum Forge ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'MR8',
+                names: {
+                    de: 'Marco Richter',
+                    en: 'Marco Richter',
+                    zh: 'Marco Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aquila Macro',
+                    en: 'Lead of Execution Services, Aquila Macro',
+                    zh: 'Aquila Macro 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'AI',
+                names: {
+                    de: 'Alexander Richter',
+                    en: 'Alexander Richter',
+                    zh: 'Alexander Richter'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Signal Foundry',
+                    en: 'Head of Market Intelligence, Signal Foundry',
+                    zh: 'Signal Foundry 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'AW',
+                names: {
+                    de: 'Anna Weiss',
+                    en: 'Anna Weiss',
+                    zh: 'Anna Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Helios Quant',
+                    en: 'Head of Quant Research, Helios Quant',
+                    zh: 'Helios Quant 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'LW',
+                names: {
+                    de: 'Lena Weiss',
+                    en: 'Lena Weiss',
+                    zh: 'Lena Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Nordlicht Asset',
+                    en: 'Director of Data Strategy, Nordlicht Asset',
+                    zh: 'Nordlicht Asset 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'MW',
+                names: {
+                    de: 'Mara Weiss',
+                    en: 'Mara Weiss',
+                    zh: 'Mara Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Atlas Signals',
+                    en: 'Chief Risk Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'CE',
+                names: {
+                    de: 'Clara Weiss',
+                    en: 'Clara Weiss',
+                    zh: 'Clara Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, Meridian Global',
+                    en: 'Head of Trading Infrastructure, Meridian Global',
+                    zh: 'Meridian Global 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'NW',
+                names: {
+                    de: 'Nina Weiss',
+                    en: 'Nina Weiss',
+                    zh: 'Nina Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Silbersee Capital',
+                    en: 'AI Lab Program Lead, Silbersee Capital',
+                    zh: 'Silbersee Capital AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'SW',
+                names: {
+                    de: 'Sophie Weiss',
+                    en: 'Sophie Weiss',
+                    zh: 'Sophie Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Vanguard Labs Europe',
+                    en: 'Managing Partner, Vanguard Labs Europe',
+                    zh: 'Vanguard Labs Europe 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'LE',
+                names: {
+                    de: 'Larissa Weiss',
+                    en: 'Larissa Weiss',
+                    zh: 'Larissa Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Aurora Capital Partners',
+                    en: 'Director of Portfolio Analytics, Aurora Capital Partners',
+                    zh: 'Aurora Capital Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'KW',
+                names: {
+                    de: 'Katrin Weiss',
+                    en: 'Katrin Weiss',
+                    zh: 'Katrin Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Quantum Harbor',
+                    en: 'Head of ESG Engineering, Quantum Harbor',
+                    zh: 'Quantum Harbor ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'LW8',
+                names: {
+                    de: 'Lea Weiss',
+                    en: 'Lea Weiss',
+                    zh: 'Lea Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aegis Markets',
+                    en: 'Lead of Execution Services, Aegis Markets',
+                    zh: 'Aegis Markets 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'PW',
+                names: {
+                    de: 'Paula Weiss',
+                    en: 'Paula Weiss',
+                    zh: 'Paula Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Orion Research',
+                    en: 'Head of Market Intelligence, Orion Research',
+                    zh: 'Orion Research 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'JW',
+                names: {
+                    de: 'Jonas Weiss',
+                    en: 'Jonas Weiss',
+                    zh: 'Jonas Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Sternwerk Finance',
+                    en: 'Head of Quant Research, Sternwerk Finance',
+                    zh: 'Sternwerk Finance 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'TW',
+                names: {
+                    de: 'Tobias Weiss',
+                    en: 'Tobias Weiss',
+                    zh: 'Tobias Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Blue Ridge Analytics',
+                    en: 'Director of Data Strategy, Blue Ridge Analytics',
+                    zh: 'Blue Ridge Analytics 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'FW',
+                names: {
+                    de: 'Felix Weiss',
+                    en: 'Felix Weiss',
+                    zh: 'Felix Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Cascade Advisory',
+                    en: 'Chief Risk Officer, Cascade Advisory',
+                    zh: 'Cascade Advisory 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'ME',
+                names: {
+                    de: 'Matthias Weiss',
+                    en: 'Matthias Weiss',
+                    zh: 'Matthias Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, VectorBridge',
+                    en: 'Head of Trading Infrastructure, VectorBridge',
+                    zh: 'VectorBridge 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'SE',
+                names: {
+                    de: 'Sebastian Weiss',
+                    en: 'Sebastian Weiss',
+                    zh: 'Sebastian Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Polaris Futures',
+                    en: 'AI Lab Program Lead, Polaris Futures',
+                    zh: 'Polaris Futures AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'LW5',
+                names: {
+                    de: 'Lukas Weiss',
+                    en: 'Lukas Weiss',
+                    zh: 'Lukas Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Hanse Quant Labs',
+                    en: 'Managing Partner, Hanse Quant Labs',
+                    zh: 'Hanse Quant Labs 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'SW6',
+                names: {
+                    de: 'Simon Weiss',
+                    en: 'Simon Weiss',
+                    zh: 'Simon Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Summit Ridge Partners',
+                    en: 'Director of Portfolio Analytics, Summit Ridge Partners',
+                    zh: 'Summit Ridge Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'BW',
+                names: {
+                    de: 'Benedikt Weiss',
+                    en: 'Benedikt Weiss',
+                    zh: 'Benedikt Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Momentum Forge',
+                    en: 'Head of ESG Engineering, Momentum Forge',
+                    zh: 'Momentum Forge ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'FE',
+                names: {
+                    de: 'Fabian Weiss',
+                    en: 'Fabian Weiss',
+                    zh: 'Fabian Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aquila Macro',
+                    en: 'Lead of Execution Services, Aquila Macro',
+                    zh: 'Aquila Macro 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'MW9',
+                names: {
+                    de: 'Martin Weiss',
+                    en: 'Martin Weiss',
+                    zh: 'Martin Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Signal Foundry',
+                    en: 'Head of Market Intelligence, Signal Foundry',
+                    zh: 'Signal Foundry 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'HW',
+                names: {
+                    de: 'Helena Weiss',
+                    en: 'Helena Weiss',
+                    zh: 'Helena Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Helios Quant',
+                    en: 'Head of Quant Research, Helios Quant',
+                    zh: 'Helios Quant 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'IW',
+                names: {
+                    de: 'Isabell Weiss',
+                    en: 'Isabell Weiss',
+                    zh: 'Isabell Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Nordlicht Asset',
+                    en: 'Director of Data Strategy, Nordlicht Asset',
+                    zh: 'Nordlicht Asset 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'CW2',
+                names: {
+                    de: 'Charlotte Weiss',
+                    en: 'Charlotte Weiss',
+                    zh: 'Charlotte Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Atlas Signals',
+                    en: 'Chief Risk Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'MW3',
+                names: {
+                    de: 'Miriam Weiss',
+                    en: 'Miriam Weiss',
+                    zh: 'Miriam Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, Meridian Global',
+                    en: 'Head of Trading Infrastructure, Meridian Global',
+                    zh: 'Meridian Global 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'FW4',
+                names: {
+                    de: 'Franziska Weiss',
+                    en: 'Franziska Weiss',
+                    zh: 'Franziska Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Silbersee Capital',
+                    en: 'AI Lab Program Lead, Silbersee Capital',
+                    zh: 'Silbersee Capital AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'EW',
+                names: {
+                    de: 'Elena Weiss',
+                    en: 'Elena Weiss',
+                    zh: 'Elena Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Vanguard Labs Europe',
+                    en: 'Managing Partner, Vanguard Labs Europe',
+                    zh: 'Vanguard Labs Europe 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'GW',
+                names: {
+                    de: 'Greta Weiss',
+                    en: 'Greta Weiss',
+                    zh: 'Greta Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Aurora Capital Partners',
+                    en: 'Director of Portfolio Analytics, Aurora Capital Partners',
+                    zh: 'Aurora Capital Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'LW7',
+                names: {
+                    de: 'Laura Weiss',
+                    en: 'Laura Weiss',
+                    zh: 'Laura Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Quantum Harbor',
+                    en: 'Head of ESG Engineering, Quantum Harbor',
+                    zh: 'Quantum Harbor ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'EE',
+                names: {
+                    de: 'Eva Weiss',
+                    en: 'Eva Weiss',
+                    zh: 'Eva Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aegis Markets',
+                    en: 'Lead of Execution Services, Aegis Markets',
+                    zh: 'Aegis Markets 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'VW',
+                names: {
+                    de: 'Vanessa Weiss',
+                    en: 'Vanessa Weiss',
+                    zh: 'Vanessa Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Orion Research',
+                    en: 'Head of Market Intelligence, Orion Research',
+                    zh: 'Orion Research 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'OW',
+                names: {
+                    de: 'Oliver Weiss',
+                    en: 'Oliver Weiss',
+                    zh: 'Oliver Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Sternwerk Finance',
+                    en: 'Head of Quant Research, Sternwerk Finance',
+                    zh: 'Sternwerk Finance 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'DW',
+                names: {
+                    de: 'David Weiss',
+                    en: 'David Weiss',
+                    zh: 'David Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Blue Ridge Analytics',
+                    en: 'Director of Data Strategy, Blue Ridge Analytics',
+                    zh: 'Blue Ridge Analytics 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'PE',
+                names: {
+                    de: 'Philipp Weiss',
+                    en: 'Philipp Weiss',
+                    zh: 'Philipp Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Cascade Advisory',
+                    en: 'Chief Risk Officer, Cascade Advisory',
+                    zh: 'Cascade Advisory 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'JE',
+                names: {
+                    de: 'Julian Weiss',
+                    en: 'Julian Weiss',
+                    zh: 'Julian Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, VectorBridge',
+                    en: 'Head of Trading Infrastructure, VectorBridge',
+                    zh: 'VectorBridge 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'RW',
+                names: {
+                    de: 'Rafael Weiss',
+                    en: 'Rafael Weiss',
+                    zh: 'Rafael Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Polaris Futures',
+                    en: 'AI Lab Program Lead, Polaris Futures',
+                    zh: 'Polaris Futures AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'NE',
+                names: {
+                    de: 'Niklas Weiss',
+                    en: 'Niklas Weiss',
+                    zh: 'Niklas Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Hanse Quant Labs',
+                    en: 'Managing Partner, Hanse Quant Labs',
+                    zh: 'Hanse Quant Labs 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'DE',
+                names: {
+                    de: 'Dominik Weiss',
+                    en: 'Dominik Weiss',
+                    zh: 'Dominik Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Summit Ridge Partners',
+                    en: 'Director of Portfolio Analytics, Summit Ridge Partners',
+                    zh: 'Summit Ridge Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'SW7',
+                names: {
+                    de: 'Stefan Weiss',
+                    en: 'Stefan Weiss',
+                    zh: 'Stefan Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Momentum Forge',
+                    en: 'Head of ESG Engineering, Momentum Forge',
+                    zh: 'Momentum Forge ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+            {
+                initials: 'MW8',
+                names: {
+                    de: 'Marco Weiss',
+                    en: 'Marco Weiss',
+                    zh: 'Marco Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Execution Services, Aquila Macro',
+                    en: 'Lead of Execution Services, Aquila Macro',
+                    zh: 'Aquila Macro 执行服务主管'
+                },
+                quotes: {
+                    de: 'Baute DeFi-Liquiditätsmonitoring auf und sicherte 24/7 Alarmierung mit Red-Team-Tests.',
+                    en: 'Built DeFi liquidity monitoring with 24/7 alerting backed by red-team drills.',
+                    zh: '搭建 DeFi 流动性监控体系，并通过红队演练实现 24/7 告警。'
+                }
+            },
+            {
+                initials: 'AE',
+                names: {
+                    de: 'Alexander Weiss',
+                    en: 'Alexander Weiss',
+                    zh: 'Alexander Weiss'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Head of Market Intelligence, Signal Foundry',
+                    en: 'Head of Market Intelligence, Signal Foundry',
+                    zh: 'Signal Foundry 市场情报负责人'
+                },
+                quotes: {
+                    de: 'Initiierte Universitätsallianzen in acht Städten und erhöhte die Campus-Projektquote auf 94 %.',
+                    en: 'Initiated university alliances in eight cities, lifting campus programme completion to 94%.',
+                    zh: '联合八座城市的高校联盟，使校园项目完成率提升至 94%。'
+                }
+            },
+            {
+                initials: 'AH',
+                names: {
+                    de: 'Anna Hofmann',
+                    en: 'Anna Hofmann',
+                    zh: 'Anna Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Leiter:in Quant Research, Helios Quant',
+                    en: 'Head of Quant Research, Helios Quant',
+                    zh: 'Helios Quant 量化研究负责人'
+                },
+                quotes: {
+                    de: 'Skalierte Faktorplattformen für fünf Assetklassen und verkürzte Backtests um 42 %.',
+                    en: 'Scaled factor platforms for five asset classes, cutting backtesting time by 42%.',
+                    zh: '搭建覆盖五类资产的因子平台，将回测时间缩短 42%。'
+                }
+            },
+            {
+                initials: 'LH',
+                names: {
+                    de: 'Lena Hofmann',
+                    en: 'Lena Hofmann',
+                    zh: 'Lena Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Datenstrategie, Nordlicht Asset',
+                    en: 'Director of Data Strategy, Nordlicht Asset',
+                    zh: 'Nordlicht Asset 数据策略总监'
+                },
+                quotes: {
+                    de: 'Automatisierte Liquiditätswarnungen reduzierten Eskalationszeiten um 35 % über 14 Desks.',
+                    en: 'Automated liquidity alerts reduced escalation times by 35% across 14 desks.',
+                    zh: '自动化流动性告警覆盖 14 个交易席位，响应时间缩短 35%。'
+                }
+            },
+            {
+                initials: 'MO',
+                names: {
+                    de: 'Mara Hofmann',
+                    en: 'Mara Hofmann',
+                    zh: 'Mara Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Chief Risk Officer, Atlas Signals',
+                    en: 'Chief Risk Officer, Atlas Signals',
+                    zh: 'Atlas Signals 首席风险官'
+                },
+                quotes: {
+                    de: 'Co-Investments im Volumen von 180 Mio. € strukturiert und Governance-Playbooks bereitgestellt.',
+                    en: 'Structured €180m of co-investments and delivered governance playbooks.',
+                    zh: '完成 1.8 亿欧元共投资结构设计，并输出治理手册。'
+                }
+            },
+            {
+                initials: 'CH',
+                names: {
+                    de: 'Clara Hofmann',
+                    en: 'Clara Hofmann',
+                    zh: 'Clara Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte II (2022–2023)',
+                    en: 'Cohort II (2022–2023)',
+                    zh: '第 2 期 · 2022-2023'
+                },
+                roles: {
+                    de: 'Leiter:in Handelsinfrastruktur, Meridian Global',
+                    en: 'Head of Trading Infrastructure, Meridian Global',
+                    zh: 'Meridian Global 交易基础架构负责人'
+                },
+                quotes: {
+                    de: 'Implementierte Stressszenarien für Energie- und Agrarmärkte mit 0 unbeantworteten Alerts.',
+                    en: 'Implemented stress scenarios for energy and agri markets with zero missed alerts.',
+                    zh: '上线能源与农产品市场压力测试，实现预警零漏报。'
+                }
+            },
+            {
+                initials: 'NH',
+                names: {
+                    de: 'Nina Hofmann',
+                    en: 'Nina Hofmann',
+                    zh: 'Nina Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte I (2021–2022)',
+                    en: 'Cohort I (2021–2022)',
+                    zh: '第 1 期 · 2021-2022'
+                },
+                roles: {
+                    de: 'Programmleiter:in AI Lab, Silbersee Capital',
+                    en: 'AI Lab Program Lead, Silbersee Capital',
+                    zh: 'Silbersee Capital AI 实验室项目负责人'
+                },
+                quotes: {
+                    de: 'Erweiterte das TIA Research OS auf drei Regionen und synchronisierte Audit-Trails.',
+                    en: 'Expanded the TIA Research OS into three regions with synchronized audit trails.',
+                    zh: '将 TIA Research OS 拓展至三大地区，并实现审计日志同步。'
+                }
+            },
+            {
+                initials: 'SH',
+                names: {
+                    de: 'Sophie Hofmann',
+                    en: 'Sophie Hofmann',
+                    zh: 'Sophie Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte V (2025–2026)',
+                    en: 'Cohort V (2025–2026)',
+                    zh: '第 5 期 · 2025-2026'
+                },
+                roles: {
+                    de: 'Managing Partner, Vanguard Labs Europe',
+                    en: 'Managing Partner, Vanguard Labs Europe',
+                    zh: 'Vanguard Labs Europe 管理合伙人'
+                },
+                quotes: {
+                    de: 'Trainierte 120 Analyst:innen im Mentorprogramm und steigerte KPI-Erfüllung um 28 %.',
+                    en: 'Trained 120 analysts through the mentor track, boosting KPI attainment by 28%.',
+                    zh: '在导师项目中培养 120 名分析师，关键指标完成率提升 28%。'
+                }
+            },
+            {
+                initials: 'LO',
+                names: {
+                    de: 'Larissa Hofmann',
+                    en: 'Larissa Hofmann',
+                    zh: 'Larissa Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte IV (2024–2025)',
+                    en: 'Cohort IV (2024–2025)',
+                    zh: '第 4 期 · 2024-2025'
+                },
+                roles: {
+                    de: 'Direktor:in Portfolio Analytics, Aurora Capital Partners',
+                    en: 'Director of Portfolio Analytics, Aurora Capital Partners',
+                    zh: 'Aurora Capital Partners 投资组合分析总监'
+                },
+                quotes: {
+                    de: 'Migrierte Legacy-Signale in AI-Pipelines und senkte Latenz unter 90 Millisekunden.',
+                    en: 'Migrated legacy signals into AI pipelines, driving latency below 90 ms.',
+                    zh: '将传统信号迁入 AI Pipeline，将延迟压低至 90 毫秒以内。'
+                }
+            },
+            {
+                initials: 'KH',
+                names: {
+                    de: 'Katrin Hofmann',
+                    en: 'Katrin Hofmann',
+                    zh: 'Katrin Hofmann'
+                },
+                cohorts: {
+                    de: 'Kohorte III (2023–2024)',
+                    en: 'Cohort III (2023–2024)',
+                    zh: '第 3 期 · 2023-2024'
+                },
+                roles: {
+                    de: 'Head of ESG Engineering, Quantum Harbor',
+                    en: 'Head of ESG Engineering, Quantum Harbor',
+                    zh: 'Quantum Harbor ESG 工程负责人'
+                },
+                quotes: {
+                    de: 'Koordinierte ESG-Datenfeeds für 60 Mandate und vereinheitlichte Reporting-Rhythmen.',
+                    en: 'Coordinated ESG data feeds for 60 mandates and unified reporting cadences.',
+                    zh: '为 60 个委托整合 ESG 数据流，并统一报告节奏。'
+                }
+            },
+
         ];
 
         const ALUMNI_PAGE_SIZE = 10;
