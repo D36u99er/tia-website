@@ -1413,6 +1413,14 @@ ul {
   color: var(--color-text-muted);
 }
 
+.team-card-summary {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.8rem 0 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
 .quote {
   font-style: italic;
   color: var(--color-secondary);
