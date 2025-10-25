@@ -3228,7 +3228,7 @@
 
         ];
 
-        const ALUMNI_PAGE_SIZE = 10;
+        const ALUMNI_PAGE_SIZE = 9;
 
         const alumniData = {
             de: alumniBase.map((item) => ({
