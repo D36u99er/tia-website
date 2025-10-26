@@ -23,6 +23,7 @@
 
         const themeToggle = document.querySelector('.theme-toggle');
         const themeToggleText = themeToggle ? themeToggle.querySelector('.theme-toggle-text') : null;
+        const themeToggleIcon = themeToggle ? themeToggle.querySelector('.theme-toggle-icon') : null;
         const THEME_STORAGE_KEY = 'tia-theme';
         let currentLanguage = 'de';
 
@@ -48,6 +49,9 @@
             document.documentElement.dataset.theme = target;
             if (themeToggle) {
                 themeToggle.setAttribute('aria-pressed', target === 'dark');
+            }
+            if (themeToggleIcon) {
+                themeToggleIcon.textContent = target === 'dark' ? '☀' : '🌙';
             }
             updateThemeToggleLabels(currentLanguage);
         }
