@@ -21,49 +21,6 @@
             });
         });
 
-        const themeToggle = document.querySelector('.theme-toggle');
-        const themeToggleText = themeToggle ? themeToggle.querySelector('.theme-toggle-text') : null;
-        const THEME_STORAGE_KEY = 'tia-theme';
-        let currentLanguage = 'de';
-
-        const themeToggleLabels = {
-            de: { dark: 'Dunklen Modus aktivieren', light: 'Hellen Modus aktivieren' },
-            en: { dark: 'Activate dark mode', light: 'Activate light mode' },
-            zh: { dark: '切换到深色模式', light: '切换到浅色模式' }
-        };
-
-        function updateThemeToggleLabels(lang) {
-            if (!themeToggle) return;
-            const theme = document.documentElement.dataset.theme || 'light';
-            const labels = themeToggleLabels[lang] || themeToggleLabels.de;
-            const text = theme === 'dark' ? labels.light : labels.dark;
-            themeToggle.setAttribute('aria-label', text);
-            if (themeToggleText) {
-                themeToggleText.textContent = text;
-            }
-        }
-
-        function applyTheme(theme) {
-            const target = theme === 'dark' ? 'dark' : 'light';
-            document.documentElement.dataset.theme = target;
-            if (themeToggle) {
-                themeToggle.setAttribute('aria-pressed', target === 'dark');
-            }
-            updateThemeToggleLabels(currentLanguage);
-        }
-
-        const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-        const initialTheme = storedTheme === 'dark' ? 'dark' : 'light';
-        applyTheme(initialTheme);
-
-        if (themeToggle) {
-            themeToggle.addEventListener('click', () => {
-                const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-                applyTheme(nextTheme);
-                localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
-            });
-        }
-
         const translations = {
             de: {
                 'meta.title': 'Tethys Investment Alliance | KI-gestützte Quant-Plattform',
@@ -3374,8 +3331,6 @@
             document.documentElement.lang = langAttributes[lang] || 'de';
             const previousLanguage = state.language;
             state.language = lang;
-            currentLanguage = lang;
-            updateThemeToggleLabels(lang);
             renderAlumni(lang, previousLanguage === lang ? state.alumniPage : 1);
             bindReportLinks();
             if (pdfElements.wrapper && pdfElements.wrapper.classList.contains('active') && state.pdfModule) {
