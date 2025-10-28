@@ -128,39 +128,108 @@
 
     <footer class="site-footer">
         <div class="footer-main">
-            <div class="footer-brand">
-                <img src="assets/images/logo.png" alt="Tethys Investment Alliance">
-                <p data-i18n="footer.brand">Wir liefern KI-gestützte Research-, Execution- und Risk-Plattformen für institutionelle Investoren weltweit.</p>
+            <div class="footer-columns">
+                <div class="footer-column footer-column--about">
+                    <h4 data-i18n="footer.about.title">关于我们</h4>
+                    <p data-i18n="footer.about.text">Tethys 投资同盟会致力于为德国和全球的投资者提供高质量的投资与教学支持，帮助每位会员实现财务自由目标。</p>
+                </div>
+                <div class="footer-column footer-column--links">
+                    <h4 data-i18n="footer.links.title">快速链接</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="footer.links.home">首页</a></li>
+                        <li><a href="platform.html" data-i18n="footer.links.platform">智能平台</a></li>
+                        <li><a href="team.html" data-i18n="footer.links.team">专家团队</a></li>
+                        <li><a href="education.html" data-i18n="footer.links.education">教育课程</a></li>
+                        <li><a href="about.html#contact" data-i18n="footer.links.contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-column--contact">
+                    <h4 data-i18n="footer.contact.title">联系我们</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <span data-i18n="footer.contact.addressLabel">地址</span>
+                            <address data-i18n="footer.contact.address">Mainzer Landstraße 16, 60325 Frankfurt am Main, Germany</address>
+                        </li>
+                        <li>
+                            <span data-i18n="footer.contact.emailLabel">邮箱</span>
+                            <a href="mailto:hello@tethys-invest.com" data-i18n="footer.contact.email">hello@tethys-invest.com</a>
+                        </li>
+                        <li>
+                            <span data-i18n="footer.contact.phoneLabel">电话</span>
+                            <a href="tel:+496924748800" data-i18n="footer.contact.phone">+49 69 2474 8800</a>
+                        </li>
+                        <li>
+                            <span data-i18n="footer.contact.siteLabel">网址</span>
+                            <a href="https://tia.fund" target="_blank" rel="noopener" data-i18n="footer.contact.site">https://tia.fund</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-column--legal">
+                    <h4 data-i18n="footer.summary.title">法律信息</h4>
+                    <ul class="legal-summary">
+                        <li>
+                            <span data-i18n="footer.summary.operatorLabel">网站运营方</span>
+                            <strong data-i18n="footer.summary.operator">TETHYS INVESTMENT ALLIANCE INC</strong>
+                        </li>
+                        <li>
+                            <span data-i18n="footer.summary.addressLabel">美国地址</span>
+                            <span data-i18n="footer.summary.address">222 Sansome St, San Francisco, CA 94104, United States</span>
+                        </li>
+                        <li>
+                            <span data-i18n="footer.summary.taxLabel">税号</span>
+                            <span data-i18n="footer.summary.tax">39-4174820</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-links">
-                <div>
-                    <h4 data-i18n="footer.solutions">Lösungen</h4>
-                    <a href="index.html#solutions" data-i18n="footer.solutions.strategy">Strategieentwicklung</a>
-                    <a href="platform.html" data-i18n="footer.solutions.execution">Automatisierte Ausführung</a>
-                    <a href="platform.html#ros" data-i18n="footer.solutions.risk">Risikosteuerung &amp; Compliance</a>
-                </div>
-                <div>
-                    <h4 data-i18n="footer.resources">Ressourcen</h4>
-                    <a href="team.html" data-i18n="footer.resources.team">Expertenteam</a>
-                    <a href="about.html#contact" data-i18n="footer.resources.support">Support-Services</a>
-                    <a href="alumni.html" data-i18n="footer.resources.case">Kundenreferenzen</a>
-                </div>
-                <div>
-                    <h4 data-i18n="footer.contact">Kontakt</h4>
-                    <a href="mailto:contact@tethys-invest.com">contact@tethys-invest.com</a>
-                    <a href="tel:+85212345678">+852 1234 5678</a>
-                    <a href="about.html#contact" data-i18n="footer.contact.demo">Demo vereinbaren</a>
+            <div class="footer-legal-wrapper" id="legal">
+                <h4 data-i18n="footer.legal.title">法律声明</h4>
+                <div class="footer-legal-grid">
+                    <div class="legal-card">
+                        <dl class="legal-list">
+                            <div>
+                                <dt data-i18n="footer.legal.labels.operator">网站运营方</dt>
+                                <dd data-i18n="footer.legal.operatorName">TETHYS INVESTMENT ALLIANCE INC</dd>
+                            </div>
+                            <div>
+                                <dt data-i18n="footer.legal.labels.usAddress">美国地址</dt>
+                                <dd data-i18n="footer.legal.usAddress">222 Sansome St, San Francisco, CA 94104, United States</dd>
+                            </div>
+                            <div>
+                                <dt data-i18n="footer.legal.labels.represented">Vertreten durch</dt>
+                                <dd data-i18n="footer.legal.representedValue">die Geschäftsführung</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="legal-card">
+                        <dl class="legal-list">
+                            <div>
+                                <dt data-i18n="footer.legal.labels.deAddress">德国联系地址（nach § 5 Abs. 1 Nr. 1 TMG）</dt>
+                                <dd data-i18n="footer.legal.deAddress">Mainzer Landstraße 16, 60325 Frankfurt am Main, Germany</dd>
+                            </div>
+                            <div>
+                                <dt data-i18n="footer.legal.labels.taxInfo">税务信息</dt>
+                                <dd data-i18n="footer.legal.einDetail">Employer Identification Number (EIN): 39-4174820（由美国国税局签发）。</dd>
+                            </div>
+                            <div>
+                                <dt data-i18n="footer.legal.labels.note">Hinweis gemäß § 27a UStG</dt>
+                                <dd data-i18n="footer.legal.ustgNote">由于属于美国公司，暂不具备德国增值税税号。</dd>
+                            </div>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <span data-i18n="footer.bottom">&copy; 2025 Tethys Investment Alliance. Alle Rechte vorbehalten.</span>
-            <div class="footer-legal">
-                <a href="about.html" data-i18n="footer.privacy">Datenschutz</a>
-                <a href="about.html" data-i18n="footer.terms">Nutzungsbedingungen</a>
+            <span data-i18n="footer.bottom">&copy; 2025 Tethys Investment Alliance. 保留所有权利。</span>
+            <div class="footer-bottom-links">
+                <a href="about.html#legal" data-i18n="footer.privacy">隐私政策</a>
+                <a href="about.html#legal" data-i18n="footer.terms">服务条款</a>
             </div>
         </div>
     </footer>
+
+
 
     <script src="assets/js/main.js"></script>
 </body>
