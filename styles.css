@@ -1275,113 +1275,70 @@ ul {
   background: linear-gradient(135deg, rgba(6, 32, 90, 0.94), rgba(13, 86, 183, 0.92));
 }
 
-.election-brief {
+.election-summary {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: clamp(2.8rem, 6vw, 4rem) clamp(1.8rem, 5vw, 3.2rem);
-  background: #fff;
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-card);
+  padding: clamp(2.4rem, 6vw, 3.6rem) clamp(1.6rem, 5vw, 3rem);
   display: grid;
-  gap: clamp(2rem, 5vw, 3.2rem);
+  gap: clamp(1.8rem, 4vw, 2.6rem);
 }
 
-.election-brief__header {
-  display: grid;
-  gap: 0.9rem;
-  max-width: 780px;
+.election-summary .election-details-header {
+  text-align: left;
+  gap: 0.7rem;
 }
 
-.election-brief__intro {
-  margin: 0;
-  color: var(--color-text-muted);
-  font-size: clamp(1rem, 2.1vw, 1.1rem);
+.election-summary .election-details-header .eyebrow {
+  margin-bottom: 0.4rem;
 }
 
-.election-brief__grid {
-  display: grid;
-  gap: 1.6rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.election-brief__card {
-  background: var(--color-background);
-  border-radius: var(--radius-lg);
-  padding: clamp(1.6rem, 4vw, 2.2rem);
-  box-shadow: 0 18px 38px rgba(6, 32, 90, 0.08);
-  display: grid;
-  gap: 0.8rem;
-}
-
-.election-brief__card h3 {
-  margin: 0;
-  font-size: clamp(1.05rem, 2.1vw, 1.2rem);
-  color: var(--color-secondary);
-}
-
-.election-brief__card ul {
-  display: grid;
-  gap: 0.6rem;
-}
-
-.election-brief__card li {
-  position: relative;
-  padding-left: 1.2rem;
-  color: var(--color-text-muted);
-  font-size: 0.98rem;
-}
-
-.election-brief__card li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.55rem;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.18);
-}
-
-.election-brief__timeline {
-  display: grid;
+.election-summary .election-detail-grid,
+.election-summary .election-phase-grid {
   gap: 1.4rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: 1fr;
 }
 
-.timeline-card {
-  background: #fff;
-  border-radius: var(--radius-lg);
-  padding: clamp(1.6rem, 4vw, 2rem);
-  border: 1px solid rgba(6, 32, 90, 0.08);
-  box-shadow: 0 12px 28px rgba(6, 32, 90, 0.06);
-  display: grid;
+.election-summary .detail-card,
+.election-summary .phase-card {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  border: none;
   gap: 0.6rem;
 }
 
-.timeline-card h4 {
-  margin: 0;
-  font-size: 1.02rem;
+.election-summary .detail-card h3,
+.election-summary .phase-card h3 {
+  color: var(--color-primary-dark);
+}
+
+.election-summary .detail-card p,
+.election-summary .phase-card p {
+  color: var(--color-text);
+}
+
+.election-summary .detail-card ul,
+.election-summary .phase-card ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  color: var(--color-text);
+}
+
+.election-summary .phase-result {
   color: var(--color-primary);
 }
 
-.timeline-card p {
-  margin: 0;
-  color: var(--color-text-muted);
+.election-summary .election-closing {
+  background: transparent;
+  padding: 0;
+  color: var(--color-text);
+  box-shadow: none;
+  border-radius: 0;
 }
 
-@media (min-width: 1024px) {
-  .election-brief {
-    align-items: start;
-  }
-
-  .election-brief__grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .election-brief__timeline {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+.election-summary .election-closing p:last-child {
+  font-weight: 500;
 }
 
 .candidate-section {
@@ -1484,12 +1441,6 @@ ul {
 
 .vote-button-count::before {
   content: '🔥';
-}
-
-.election-details {
-  display: grid;
-  gap: 2.5rem;
-  margin-top: 2.5rem;
 }
 
 .election-details-header {
