@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: true
+          lfs: false
 
       - name: Prepare deploy script
         run: chmod +x scripts/deploy_bwg.sh

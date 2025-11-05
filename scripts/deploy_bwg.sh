@@ -44,7 +44,7 @@ trap 'rm -f "${tmp_key}"' EXIT
 printf "%s\n" "${BWG_SSH_KEY}" >"${tmp_key}"
 chmod 600 "${tmp_key}"
 
-IFS=',' read -r -a exclude_items <<< "${BWG_RSYNC_EXCLUDE:-.git,.github,.DS_Store,README.md,scripts}"
+IFS=',' read -r -a exclude_items <<< "${BWG_RSYNC_EXCLUDE:-.git,.github,.DS_Store,README.md,scripts,assets/videos/}"
 rsync_excludes=()
 for item in "${exclude_items[@]}"; do
   [[ -z ${item} ]] && continue
