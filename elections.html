@@ -90,85 +90,52 @@
             </div>
         </section>
 
-        <section class="page-section governance-section" id="elections">
-            <div class="services-grid">
-                <article class="service-card">
-                    <h3 data-i18n="elections.card1.title">Proposal- &amp; Eligibility-Management</h3>
-                    <p data-i18n="elections.card1.desc">
-                        Mehrdimensionale Regeln mit dem TIA Identity Service sorgen dafür, dass nur verifizierte Mitglieder Vorschläge einreichen und abstimmen.
-                    </p>
-                    <ul class="service-list">
-                        <li data-i18n="elections.card1.point1">Rollen-, Beitrags- und Asset-basierte Zugangskontrolle</li>
-                        <li data-i18n="elections.card1.point2">Vorlagenbibliothek und Impact-Bewertungstabellen</li>
-                        <li data-i18n="elections.card1.point3">Automatische Erinnerungen für Deadlines und Voting-Start</li>
-                    </ul>
-                </article>
-                <article class="service-card">
-                    <h3 data-i18n="elections.card2.title">Abstimmung &amp; Audit</h3>
-                    <p data-i18n="elections.card2.desc">
-                        Unterstützt gewichtete, mehrstufige oder Konsens-basierte Verfahren. Alle Logs werden zertifiziert archiviert.
-                    </p>
-                    <ul class="service-list">
-                        <li data-i18n="elections.card2.point1">Einheitliche Web- und Mobile-Voting-Erfahrung</li>
-                        <li data-i18n="elections.card2.point2">Live-Zählung mit Risikowarnungen</li>
-                        <li data-i18n="elections.card2.point3">API-Export für Audit-Trails und Archivierung</li>
-                    </ul>
-                </article>
-                <article class="service-card">
-                    <h3 data-i18n="elections.card3.title">Execution Tracking &amp; Disclosure</h3>
-                    <p data-i18n="elections.card3.desc">
-                        Ergebnisse fließen automatisch in Trading-, Education- und Community-Boards ein und sichern eine lückenlose Umsetzung.
-                    </p>
-                    <ul class="service-list">
-                        <li data-i18n="elections.card3.point1">Mehrsprachige Gewinnerseiten mit öffentlichen Zusammenfassungen</li>
-                        <li data-i18n="elections.card3.point2">Aufgabenverteilung und Quartals-Reviews</li>
-                        <li data-i18n="elections.card3.point3">Performance-KPIs verknüpft mit Abstimmungsdaten</li>
-                    </ul>
-                </article>
-            </div>
-            <div class="vote-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th data-i18n="elections.table.candidate">Kandidat:in</th>
-                            <th data-i18n="elections.table.subject">Fachgebiet</th>
-                            <th data-i18n="elections.table.votes">Stimmen</th>
-                            <th data-i18n="elections.table.action">Aktion</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td data-i18n="elections.candidate.hannah">Prof. Hannah Keller</td>
-                            <td data-i18n="elections.table.subject.ai">KI &amp; Faktor-Engineering</td>
-                            <td>342</td>
-                            <td class="vote-actions"><button type="button" data-i18n="elections.table.vote">Jetzt abstimmen</button></td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="elections.candidate.daniel">Prof. Daniel Vogt</td>
-                            <td data-i18n="elections.table.subject.execution">Execution Playbooks</td>
-                            <td>298</td>
-                            <td class="vote-actions"><button type="button" data-i18n="elections.table.vote">Jetzt abstimmen</button></td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="elections.candidate.sofia">Dr. Sofia Marques</td>
-                            <td data-i18n="elections.table.subject.macro">Global Macro Radar</td>
-                            <td>276</td>
-                            <td class="vote-actions"><button type="button" data-i18n="elections.table.vote">Jetzt abstimmen</button></td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="elections.candidate.kenji">Prof. Kenji Watanabe</td>
-                            <td data-i18n="elections.table.subject.data">Data Ops &amp; Governance</td>
-                            <td>254</td>
-                            <td class="vote-actions"><button type="button" data-i18n="elections.table.vote">Jetzt abstimmen</button></td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="elections.candidate.amelie">Dr. Amelie Fournier</td>
-                            <td data-i18n="elections.table.subject.crypto">Digital Asset Strategy</td>
-                            <td>231</td>
-                            <td class="vote-actions"><button type="button" data-i18n="elections.table.vote">Jetzt abstimmen</button></td>
-                        </tr>
-                    </tbody>
-                </table>
+        <section class="page-section election-overview" id="election-overview">
+            <div class="overview-surface">
+                <header class="overview-header">
+                    <span class="eyebrow" data-i18n="elections.overview.eyebrow">2025 领导力甄选</span>
+                    <h2 data-i18n="elections.overview.heading">TIA 选举核心要点</h2>
+                    <p data-i18n="elections.overview.intro">从完整选举资料提炼出的关键信息，帮助你快速判断把票投给谁。</p>
+                </header>
+                <div class="overview-grid">
+                    <article class="overview-card">
+                        <h3 data-i18n="elections.overview.scoring.title">评分与评审团</h3>
+                        <ul>
+                            <li data-i18n="elections.overview.scoring.point1">TIA 董事会按照 100 分量表逐项评分。</li>
+                            <li data-i18n="elections.overview.scoring.point2">社区支持者投票最多可贡献 50 分。</li>
+                        </ul>
+                    </article>
+                    <article class="overview-card">
+                        <h3 data-i18n="elections.overview.reward.title">当选领导人奖励</h3>
+                        <ul>
+                            <li data-i18n="elections.overview.reward.point1">五年领导任期并提名 Freedom Award。</li>
+                            <li data-i18n="elections.overview.reward.point2">5 亿欧元项目预算与 500 万欧元现金奖励。</li>
+                            <li data-i18n="elections.overview.reward.point3">20% 股权以及迈巴赫 S680 五年使用权。</li>
+                        </ul>
+                    </article>
+                    <article class="overview-card">
+                        <h3 data-i18n="elections.overview.support.title">支持者权益</h3>
+                        <ul>
+                            <li data-i18n="elections.overview.support.point1">三年免费接入冠军模型（预期收益 ≥380%）。</li>
+                            <li data-i18n="elections.overview.support.point2">共享 20% 现金奖与年度分红。</li>
+                            <li data-i18n="elections.overview.support.point3">终身荣誉会员资格与收益倍增计划席位。</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="timeline-grid">
+                    <article class="timeline-card">
+                        <h4 data-i18n="elections.overview.phase1.title">初选 · 2025/04/01–2025/06/30</h4>
+                        <p data-i18n="elections.overview.phase1.desc">195 个交易团队按收益、策略短文与体系占比打分。</p>
+                    </article>
+                    <article class="timeline-card">
+                        <h4 data-i18n="elections.overview.phase2.title">中选 · 2025/07/01–2025/10/31</h4>
+                        <p data-i18n="elections.overview.phase2.desc">前 20% 团队提交五年规划并披露可分享 IP 与风险成果。</p>
+                    </article>
+                    <article class="timeline-card">
+                        <h4 data-i18n="elections.overview.phase3.title">决选 · 2025/11/01–2026/04/30</h4>
+                        <p data-i18n="elections.overview.phase3.desc">两位决赛者进行六个月实盘交易并交付全球扩张方案。</p>
+                    </article>
+                </div>
             </div>
         </section>
 
