@@ -2259,7 +2259,9 @@ ul {
 
   .media-frame {
     margin: 0 auto;
-    max-width: min(520px, 90vw);
+    width: 100%;
+    max-width: none;
+    padding: clamp(0.6rem, 4vw, 1.1rem);
   }
 
   .media-badge {

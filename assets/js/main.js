@@ -21,6 +21,45 @@
             });
         });
 
+        function initHeroVideo() {
+            const video = document.querySelector('.hero-video');
+            if (!video) return;
+
+            ['muted', 'autoplay', 'playsinline', 'webkit-playsinline'].forEach((attr) => {
+                if (!video.hasAttribute(attr)) {
+                    video.setAttribute(attr, '');
+                }
+            });
+
+            const attemptPlay = () => {
+                const promise = video.play();
+                if (promise !== undefined) {
+                    promise.catch(() => {
+                        const retry = () => {
+                            video.play().catch(() => {});
+                        };
+                        video.addEventListener('click', retry, { once: true });
+                        video.addEventListener('touchstart', retry, { once: true });
+                    });
+                }
+            };
+
+            if ('IntersectionObserver' in window) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            attemptPlay();
+                        }
+                    });
+                }, { threshold: 0.2 });
+                observer.observe(video);
+            } else {
+                attemptPlay();
+            }
+        }
+
+        initHeroVideo();
+
         const translations = {
             de: {
                 'meta.title': 'Tethys Investment Alliance | KI-gestützte Quant-Plattform',
