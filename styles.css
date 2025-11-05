@@ -2242,17 +2242,24 @@ ul {
   }
 
   .hero-home .hero-inner {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2.5rem;
+    align-items: center;
+  }
+
+  .hero-content {
+    text-align: center;
   }
 
   .hero-media {
     order: -1;
+    width: 100%;
   }
 
   .media-frame {
     margin: 0 auto;
-    max-width: 520px;
+    max-width: min(520px, 90vw);
   }
 
   .media-badge {
