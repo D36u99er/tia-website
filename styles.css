@@ -1275,72 +1275,6 @@ ul {
   background: linear-gradient(135deg, rgba(6, 32, 90, 0.94), rgba(13, 86, 183, 0.92));
 }
 
-.election-summary {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: clamp(2.4rem, 6vw, 3.6rem) clamp(1.6rem, 5vw, 3rem);
-  display: grid;
-  gap: clamp(1.8rem, 4vw, 2.6rem);
-}
-
-.election-summary .election-details-header {
-  text-align: left;
-  gap: 0.7rem;
-}
-
-.election-summary .election-details-header .eyebrow {
-  margin-bottom: 0.4rem;
-}
-
-.election-summary .election-detail-grid,
-.election-summary .election-phase-grid {
-  gap: 1.4rem;
-  grid-template-columns: 1fr;
-}
-
-.election-summary .detail-card,
-.election-summary .phase-card {
-  background: transparent;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0;
-  border: none;
-  gap: 0.6rem;
-}
-
-.election-summary .detail-card h3,
-.election-summary .phase-card h3 {
-  color: var(--color-primary-dark);
-}
-
-.election-summary .detail-card p,
-.election-summary .phase-card p {
-  color: var(--color-text);
-}
-
-.election-summary .detail-card ul,
-.election-summary .phase-card ul {
-  list-style: disc;
-  padding-left: 1.2rem;
-  color: var(--color-text);
-}
-
-.election-summary .phase-result {
-  color: var(--color-primary);
-}
-
-.election-summary .election-closing {
-  background: transparent;
-  padding: 0;
-  color: var(--color-text);
-  box-shadow: none;
-  border-radius: 0;
-}
-
-.election-summary .election-closing p:last-child {
-  font-weight: 500;
-}
-
 .candidate-section {
   display: grid;
   gap: 2.8rem;
@@ -1443,80 +1377,78 @@ ul {
   content: '🔥';
 }
 
-.election-details-header {
-  text-align: center;
-  max-width: 760px;
+.election-overview {
+  max-width: var(--max-width);
   margin: 0 auto;
+  padding: clamp(2.6rem, 6vw, 4rem) clamp(1.8rem, 5vw, 3.2rem);
   display: grid;
-  gap: 0.9rem;
+  gap: clamp(2rem, 4vw, 3rem);
 }
 
-.election-detail-grid,
-.election-phase-grid {
-  display: grid;
-  gap: 1.6rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
-
-.detail-card,
-.phase-card {
-  background: #ffffff;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
-  padding: 1.8rem;
-  display: grid;
-  gap: 0.85rem;
-}
-
-.detail-card h3,
-.phase-card h3 {
-  margin: 0;
-  color: var(--color-primary-dark);
-}
-
-.detail-card p,
-.phase-card p {
-  margin: 0;
-  color: var(--color-text-muted);
-}
-
-.detail-card ul,
-.phase-card ul {
-  list-style: disc;
-  padding-left: 1.2rem;
-  margin: 0.4rem 0 0;
-  display: grid;
-  gap: 0.4rem;
-  color: var(--color-text-muted);
-}
-
-.detail-card ul li,
-.phase-card ul li {
-  margin: 0;
-}
-
-.phase-result {
-  margin-top: 0.6rem;
-  font-weight: 600;
-  color: var(--color-primary-dark);
-}
-
-.election-closing {
-  background: linear-gradient(135deg, rgba(12, 54, 128, 0.92), rgba(54, 94, 224, 0.88));
-  border-radius: var(--radius-lg);
-  padding: 1.8rem;
-  color: rgba(255, 255, 255, 0.92);
+.overview-header {
+  text-align: center;
   display: grid;
   gap: 0.8rem;
-  box-shadow: 0 24px 50px rgba(7, 28, 84, 0.38);
 }
 
-.election-closing p {
+.overview-header .eyebrow {
+  justify-self: center;
+}
+
+.overview-grid {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.overview-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  padding: clamp(1.8rem, 4vw, 2.4rem);
+  display: grid;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+.overview-card h3 {
   margin: 0;
+  color: var(--color-primary-dark);
 }
 
-.election-closing p:last-child {
-  font-weight: 600;
+.overview-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+}
+
+.timeline-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.timeline-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: clamp(1.6rem, 3.5vw, 2.1rem);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.timeline-card h4 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 1.05rem;
+}
+
+.timeline-card p {
+  margin: 0;
+  color: var(--color-text-muted);
 }
 
 .lottery-section {
