@@ -2568,7 +2568,7 @@ ul {
 }
 
 .cta-box {
-  width: min(900px, 95%);
+  width: min(1260px, 96%);
   background: linear-gradient(135deg, #0f4ed8 0%, #4092ff 100%);
   border-radius: clamp(1.8rem, 4vw, 2.6rem);
   box-shadow: 0 24px 58px rgba(30, 70, 170, 0.24);
