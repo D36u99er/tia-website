@@ -1391,6 +1391,18 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.brief-grid--summary,
+.brief-grid--stages {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+@media (min-width: 960px) {
+  .brief-grid--summary,
+  .brief-grid--stages {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .flow-card {
   background: #ffffff;
   border-radius: clamp(1.2rem, 2.5vw, 1.6rem);
