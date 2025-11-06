@@ -44,10 +44,14 @@ trap 'rm -f "${tmp_key}"' EXIT
 printf "%s\n" "${BWG_SSH_KEY}" >"${tmp_key}"
 chmod 600 "${tmp_key}"
 
-IFS=',' read -r -a exclude_items <<< "${BWG_RSYNC_EXCLUDE:-.git,.github,.DS_Store,README.md,scripts,assets/videos/}"
+# 默认包含视频资源，避免部署后只剩 Git LFS 指针。
+IFS=',' read -r -a exclude_items <<< "${BWG_RSYNC_EXCLUDE:-.git,.github,.DS_Store,README.md,scripts}"
 rsync_excludes=()
 for item in "${exclude_items[@]}"; do
   [[ -z ${item} ]] && continue
+  case "${item}" in
+    assets/videos|assets/videos/|assets/videos/*) continue ;;
+  esac
   rsync_excludes+=("--exclude=${item}")
 done
 

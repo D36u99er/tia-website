@@ -20,10 +20,13 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (with Git LFS assets)
         uses: actions/checkout@v4
         with:
-          lfs: false
+          lfs: true
+
+      - name: Ensure LFS objects are downloaded
+        run: git lfs pull
 
       - name: Prepare deploy script
         run: chmod +x scripts/deploy_bwg.sh
